@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MicroHardLibrary")(type "KiCad")(uri "/home/bard/Documents/school/mhf/PCB/MicroHard/MicroHardLibrary.kicad_sym")(options "")(descr ""))
+)
