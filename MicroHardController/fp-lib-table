@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MicroHarad")(type "KiCad")(uri "/home/bard/Documents/school/mhf/PCB/partsLib/MicroHarad.pretty")(options "")(descr ""))
+  (lib (name "MicroHard")(type "KiCad")(uri "/home/bard/Documents/school/mhf/PCB/partsLib/MicroHard.pretty")(options "")(descr ""))
+)
