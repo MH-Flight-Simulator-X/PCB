@@ -1616,7 +1616,7 @@
 			(uuid "70e23c86-0a7e-4782-baad-8d50f1132672")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 7.62 360)
+			(at 0 7.62 0)
 			(layer "F.Fab")
 			(uuid "97fd805f-5ee2-4f94-903d-403b457a1b0c")
 			(effects
@@ -1722,7 +1722,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "SW1"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "09e6b29c-1b85-4250-a3c4-3a1d3c68f06f")
 			(effects
@@ -1733,7 +1733,7 @@
 			)
 		)
 		(property "Value" "SW_Push_LED"
-			(at 0 9.95 360)
+			(at 0 9.95 0)
 			(layer "F.Fab")
 			(uuid "c0c6a993-4c37-49e9-aa3f-75e7f4a1326a")
 			(effects
@@ -2003,6 +2003,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 17 21)
+		(end 107.5 164.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "46590de7-86fd-45ef-96ee-167d33ceab44")
+	)
 	(segment
 		(start 90.7 70)
 		(end 90.7 73.54)
@@ -2186,14 +2197,6 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "dabc8d11-86f7-487c-a8e2-7858ff311821")
-	)
-	(segment
-		(start 99.4675 144.425)
-		(end 98.3425 145.55)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 4)
-		(uuid "a05e7b0b-6d98-438c-8b1a-7158f6742993")
 	)
 	(segment
 		(start 85.62 136.918491)
