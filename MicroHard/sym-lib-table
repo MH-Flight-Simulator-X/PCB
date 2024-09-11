@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "MicroHardLibrary")(type "KiCad")(uri "${KIPRJMOD}/MicroHardLibrary.kicad_sym")(options "")(descr ""))
+  (lib (name "EFM32GG842F1024")(type "KiCad")(uri "/Users/viljanvanraaij/LocalProjects/Datamaskinprosjekt/PCB/partsLib/EFM32GG842F1024/KiCADv6/2024-09-06_11-55-44.kicad_sym")(options "")(descr ""))
 )

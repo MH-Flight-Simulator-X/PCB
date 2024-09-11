@@ -7317,6 +7317,44 @@
 		)
 	)
 	(sheet
+		(at 116.84 76.2)
+		(size 40.64 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51bb8540-90e7-4b9a-973c-776e3825d084")
+		(property "Sheetname" "MCU"
+			(at 116.84 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 116.84 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MicroHard"
+				(path "/578bd531-a491-4b15-a479-460d159ffc14"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 16.51)
 		(size 21.59 16.51)
 		(fields_autoplaced yes)

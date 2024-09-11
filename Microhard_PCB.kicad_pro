@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MicroHard.kicad_pro",
+    "filename": "Microhard_PCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -574,19 +574,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "578bd531-a491-4b15-a479-460d159ffc14",
-      "Root"
-    ],
-    [
-      "f6ee64bd-5b5d-4329-b744-4c552611a962",
-      "Power Supply"
-    ],
-    [
-      "51bb8540-90e7-4b9a-973c-776e3825d084",
-      "MCU"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
