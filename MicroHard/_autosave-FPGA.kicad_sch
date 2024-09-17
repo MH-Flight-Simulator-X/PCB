@@ -1,0 +1,160 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e47b09f0-74a6-4852-ae3e-cf45220d85a2")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 32.766 41.148)
+		(size 38.354 37.084)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1131f32d-45e2-48d4-a5b0-b9e8f8db47f2")
+		(property "Sheetname" "Unit A"
+			(at 32.766 40.4364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA1.kicad_sch"
+			(at 32.766 78.8166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MicroHard"
+				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.454 41.402)
+		(size 38.1 37.592)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b40193c-1579-4de8-9c25-9c04775413b4")
+		(property "Sheetname" "Unit B"
+			(at 76.454 40.6904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA2.kicad_sch"
+			(at 76.454 79.5786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MicroHard"
+				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.634 41.91)
+		(size 38.1 37.592)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5897012d-c01f-459a-b65a-eba111a7dafb")
+		(property "Sheetname" "Unit C"
+			(at 119.634 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA3.kicad_sch"
+			(at 119.634 80.0866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MicroHard"
+				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.576 41.91)
+		(size 38.1 37.592)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ad62afa6-e46e-4108-a891-30710955bca2")
+		(property "Sheetname" "Unit D"
+			(at 163.576 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA4.kicad_sch"
+			(at 163.576 80.0866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MicroHard"
+				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88"
+					(page "8")
+				)
+			)
+		)
+	)
+)
