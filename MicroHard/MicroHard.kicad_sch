@@ -7321,7 +7321,7 @@
 		)
 	)
 	(sheet
-		(at 116.84 76.2)
+		(at 82.804 16.002)
 		(size 40.64 45.72)
 		(fields_autoplaced yes)
 		(stroke
@@ -7333,7 +7333,7 @@
 		)
 		(uuid "51bb8540-90e7-4b9a-973c-776e3825d084")
 		(property "Sheetname" "MCU"
-			(at 116.84 75.4884 0)
+			(at 82.804 15.2904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7342,7 +7342,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 116.84 122.5046 0)
+			(at 82.804 62.3066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,6 +7354,44 @@
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.366 15.748)
+		(size 39.878 45.974)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e381883e-e672-4900-88a5-08b94f970a88")
+		(property "Sheetname" "FPGA"
+			(at 134.366 15.0364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA.kicad_sch"
+			(at 134.366 62.3066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MicroHard"
+				(path "/578bd531-a491-4b15-a479-460d159ffc14"
+					(page "4")
 				)
 			)
 		)
