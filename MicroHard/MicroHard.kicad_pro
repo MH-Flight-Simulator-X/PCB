@@ -601,11 +601,11 @@
     ],
     [
       "5897012d-c01f-459a-b65a-eba111a7dafb",
-      "Unit C"
+      "FPGA Config"
     ],
     [
       "ad62afa6-e46e-4108-a891-30710955bca2",
-      "Unit D"
+      "FPGA Power Supply"
     ]
   ],
   "text_variables": {}
