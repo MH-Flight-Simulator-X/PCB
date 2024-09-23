@@ -447,20 +447,42 @@
 		)
 	)
 	(junction
-		(at 94.615 115.57)
+		(at 46.99 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12325494-b6a9-4506-a1ca-c94a10fd14c2")
+	)
+	(junction
+		(at 26.035 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "132a3aec-401b-4e9e-81fe-645a50475633")
 	)
 	(junction
-		(at 105.41 115.57)
+		(at 36.83 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af0b7d6d-2bd3-46f9-8e73-d393160d23e2")
 	)
+	(junction
+		(at 115.316 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7ea4083-18c4-4f77-9e7f-87a3894fb67f")
+	)
 	(wire
 		(pts
-			(xy 94.615 118.11) (xy 95.25 118.11)
+			(xy 57.15 113.03) (xy 46.99 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc6dfbc-ea70-4a95-90a8-eacb00994e50")
+	)
+	(wire
+		(pts
+			(xy 26.035 115.57) (xy 26.67 115.57)
 		)
 		(stroke
 			(width 0)
@@ -470,7 +492,7 @@
 	)
 	(wire
 		(pts
-			(xy 94.615 115.57) (xy 95.25 115.57)
+			(xy 26.035 113.03) (xy 26.67 113.03)
 		)
 		(stroke
 			(width 0)
@@ -480,7 +502,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 115.57) (xy 124.714 115.57)
+			(xy 36.83 113.03) (xy 46.99 113.03)
 		)
 		(stroke
 			(width 0)
@@ -490,7 +512,27 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 115.57) (xy 105.41 118.11)
+			(xy 115.316 114.3) (xy 115.57 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d85a9b-498a-423a-a900-3b4bd336fb3f")
+	)
+	(wire
+		(pts
+			(xy 46.99 105.41) (xy 46.99 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc76adf-fae2-413a-9630-b98290e57f79")
+	)
+	(wire
+		(pts
+			(xy 36.83 113.03) (xy 36.83 115.57)
 		)
 		(stroke
 			(width 0)
@@ -500,7 +542,27 @@
 	)
 	(wire
 		(pts
-			(xy 94.615 118.11) (xy 94.615 115.57)
+			(xy 95.25 114.3) (xy 115.316 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c398d22b-1af8-4294-94b1-b18bc368a774")
+	)
+	(wire
+		(pts
+			(xy 57.15 113.03) (xy 57.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d46a05-405b-4392-9ad7-0e8a93558310")
+	)
+	(wire
+		(pts
+			(xy 26.035 115.57) (xy 26.035 113.03)
 		)
 		(stroke
 			(width 0)
@@ -510,7 +572,7 @@
 	)
 	(wire
 		(pts
-			(xy 94.615 115.57) (xy 93.98 115.57)
+			(xy 26.035 113.03) (xy 25.4 113.03)
 		)
 		(stroke
 			(width 0)
@@ -518,9 +580,41 @@
 		)
 		(uuid "f4d2a2ca-2e4f-4330-a40d-c25afedd47b3")
 	)
+	(text "Active Low Full Chip Reset"
+		(exclude_from_sim no)
+		(at 62.484 98.552 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b14c27dd-508c-4463-b060-58a314535cb7")
+	)
+	(global_label "FPGA_RESET"
+		(shape input)
+		(at 46.99 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37982106-dbe7-42f6-b938-0d2758561d1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.99 90.9949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "antmicroPushbuttonSwitches:SW_SPST_KMR211NGLFS")
-		(at 105.41 118.11 180)
+		(at 36.83 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -529,7 +623,7 @@
 		(fields_autoplaced yes)
 		(uuid "40cabb01-dd8a-4144-bd08-9bfb3b78c388")
 		(property "Reference" "PROG_B1"
-			(at 101.6001 121.92 90)
+			(at 33.0201 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -538,7 +632,7 @@
 			)
 		)
 		(property "Value" "SW_SPST_KMR211NGLFS"
-			(at 99.0601 121.92 90)
+			(at 30.4801 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -549,7 +643,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:SW_SPST_4.2x2.8"
-			(at 80.01 110.49 0)
+			(at 11.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -560,7 +654,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/2631211.pdf"
-			(at 80.01 107.95 0)
+			(at 11.43 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -571,7 +665,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 118.11 0)
+			(at 36.83 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -580,7 +674,7 @@
 			)
 		)
 		(property "MPN" "KMR211NGLFS"
-			(at 99.0601 121.92 90)
+			(at 30.4801 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -590,7 +684,7 @@
 			)
 		)
 		(property "Manufacturer" "C&K"
-			(at 80.01 102.87 0)
+			(at 11.43 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -601,7 +695,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 80.01 100.33 0)
+			(at 11.43 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -612,7 +706,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 80.01 97.79 0)
+			(at 11.43 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,7 +739,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 93.98 115.57 270)
+		(at 25.4 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -653,7 +747,7 @@
 		(dnp no)
 		(uuid "6cb03760-af90-410a-89cf-c98af2c454f9")
 		(property "Reference" "#PWR018"
-			(at 87.63 115.57 0)
+			(at 19.05 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,7 +756,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 115.57 0)
+			(at 21.59 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -670,7 +764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 115.57 0)
+			(at 25.4 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -679,7 +773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 115.57 0)
+			(at 25.4 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +782,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 115.57 0)
+			(at 25.4 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -697,7 +791,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 86.36 124.46 0)
+			(at 17.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,7 +802,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 83.82 124.46 0)
+			(at 15.24 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -731,7 +825,7 @@
 		)
 	)
 	(sheet
-		(at 32.766 41.148)
+		(at 115.316 112.268)
 		(size 38.354 37.084)
 		(fields_autoplaced yes)
 		(stroke
@@ -743,7 +837,7 @@
 		)
 		(uuid "1131f32d-45e2-48d4-a5b0-b9e8f8db47f2")
 		(property "Sheetname" "Unit A"
-			(at 32.766 40.4364 0)
+			(at 115.316 111.5564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -752,13 +846,23 @@
 			)
 		)
 		(property "Sheetfile" "FPGA1.kicad_sch"
-			(at 32.766 78.8166 0)
+			(at 115.316 149.9366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "FPGA_CONFIG_CLOCK" input
+			(at 115.316 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ffa26d96-505a-4141-a3c5-10e07c40503e")
 		)
 		(instances
 			(project "MicroHard"
@@ -807,7 +911,7 @@
 		)
 	)
 	(sheet
-		(at 124.714 113.03)
+		(at 57.15 111.76)
 		(size 38.1 37.592)
 		(fields_autoplaced yes)
 		(stroke
@@ -819,7 +923,7 @@
 		)
 		(uuid "5897012d-c01f-459a-b65a-eba111a7dafb")
 		(property "Sheetname" "FPGA Config"
-			(at 124.714 112.3184 0)
+			(at 57.15 111.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,7 +932,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA3.kicad_sch"
-			(at 124.714 151.2066 0)
+			(at 57.15 149.9366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,7 +941,7 @@
 			)
 		)
 		(pin "FPGA_RESET" input
-			(at 124.714 115.57 180)
+			(at 57.15 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,6 +949,16 @@
 				(justify left)
 			)
 			(uuid "b40ef5e6-b39a-44e5-bdf9-a988328c6c1d")
+		)
+		(pin "FPGA_CONFIG_CLOCK" input
+			(at 95.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e193036b-6b54-498a-96dc-67bf8658f6ba")
 		)
 		(instances
 			(project "MicroHard"
