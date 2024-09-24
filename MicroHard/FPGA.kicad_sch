@@ -464,12 +464,6 @@
 		(color 0 0 0 0)
 		(uuid "af0b7d6d-2bd3-46f9-8e73-d393160d23e2")
 	)
-	(junction
-		(at 115.316 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7ea4083-18c4-4f77-9e7f-87a3894fb67f")
-	)
 	(wire
 		(pts
 			(xy 57.15 113.03) (xy 46.99 113.03)
@@ -512,13 +506,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.316 114.3) (xy 115.57 114.3)
+			(xy 95.25 147.32) (xy 205.74 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94d85a9b-498a-423a-a900-3b4bd336fb3f")
+		(uuid "60abbc8c-4e2d-4e49-abc6-d396de6720f9")
 	)
 	(wire
 		(pts
@@ -539,16 +533,6 @@
 			(type default)
 		)
 		(uuid "b882686a-739d-47c4-9c9a-d07eef3df84a")
-	)
-	(wire
-		(pts
-			(xy 95.25 114.3) (xy 115.316 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c398d22b-1af8-4294-94b1-b18bc368a774")
 	)
 	(wire
 		(pts
@@ -825,7 +809,7 @@
 		)
 	)
 	(sheet
-		(at 115.316 112.268)
+		(at 205.74 112.268)
 		(size 38.354 37.084)
 		(fields_autoplaced yes)
 		(stroke
@@ -837,7 +821,7 @@
 		)
 		(uuid "1131f32d-45e2-48d4-a5b0-b9e8f8db47f2")
 		(property "Sheetname" "Unit A"
-			(at 115.316 111.5564 0)
+			(at 205.74 111.5564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,7 +830,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA1.kicad_sch"
-			(at 115.316 149.9366 0)
+			(at 205.74 149.9366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,7 +839,7 @@
 			)
 		)
 		(pin "FPGA_CONFIG_CLOCK" input
-			(at 115.316 114.3 180)
+			(at 205.74 147.32 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,7 +857,7 @@
 		)
 	)
 	(sheet
-		(at 76.454 41.402)
+		(at 56.134 26.162)
 		(size 38.1 37.592)
 		(fields_autoplaced yes)
 		(stroke
@@ -885,7 +869,7 @@
 		)
 		(uuid "3b40193c-1579-4de8-9c25-9c04775413b4")
 		(property "Sheetname" "Unit B"
-			(at 76.454 40.6904 0)
+			(at 56.134 25.4504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -894,7 +878,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA2.kicad_sch"
-			(at 76.454 79.5786 0)
+			(at 56.134 64.3386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -951,7 +935,7 @@
 			(uuid "b40ef5e6-b39a-44e5-bdf9-a988328c6c1d")
 		)
 		(pin "FPGA_CONFIG_CLOCK" input
-			(at 95.25 114.3 0)
+			(at 95.25 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -969,7 +953,7 @@
 		)
 	)
 	(sheet
-		(at 163.576 41.91)
+		(at 205.486 29.21)
 		(size 38.1 37.592)
 		(fields_autoplaced yes)
 		(stroke
@@ -981,7 +965,7 @@
 		)
 		(uuid "ad62afa6-e46e-4108-a891-30710955bca2")
 		(property "Sheetname" "FPGA Power Supply"
-			(at 163.576 41.1984 0)
+			(at 205.486 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +974,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA4.kicad_sch"
-			(at 163.576 80.0866 0)
+			(at 205.486 67.3866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
