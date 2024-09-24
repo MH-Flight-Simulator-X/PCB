@@ -606,6 +606,10 @@
     [
       "ad62afa6-e46e-4108-a891-30710955bca2",
       "FPGA Power Supply"
+    ],
+    [
+      "da2ad706-b813-4c6c-baa2-e38e56e98281",
+      "Display"
     ]
   ],
   "text_variables": {}
