@@ -610,6 +610,10 @@
     [
       "da2ad706-b813-4c6c-baa2-e38e56e98281",
       "Display"
+    ],
+    [
+      "ddea3422-51f0-4fe7-a47b-97f41b1121b1",
+      "VGA out"
     ]
   ],
   "text_variables": {}

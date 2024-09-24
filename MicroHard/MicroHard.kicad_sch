@@ -7359,7 +7359,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 88.9)
+		(at 40.64 86.36)
 		(size 60.96 55.88)
 		(fields_autoplaced yes)
 		(stroke
@@ -7371,7 +7371,7 @@
 		)
 		(uuid "da2ad706-b813-4c6c-baa2-e38e56e98281")
 		(property "Sheetname" "Display"
-			(at 88.9 88.1884 0)
+			(at 40.64 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7380,7 @@
 			)
 		)
 		(property "Sheetfile" "display.kicad_sch"
-			(at 88.9 145.3646 0)
+			(at 40.64 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,6 +7392,44 @@
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 15.24)
+		(size 40.64 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ddea3422-51f0-4fe7-a47b-97f41b1121b1")
+		(property "Sheetname" "VGA out"
+			(at 181.61 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vga_out_sch.kicad_sch"
+			(at 181.61 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MicroHard"
+				(path "/578bd531-a491-4b15-a479-460d159ffc14"
+					(page "10")
 				)
 			)
 		)
