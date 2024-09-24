@@ -7359,6 +7359,44 @@
 		)
 	)
 	(sheet
+		(at 88.9 88.9)
+		(size 60.96 55.88)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da2ad706-b813-4c6c-baa2-e38e56e98281")
+		(property "Sheetname" "Display"
+			(at 88.9 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 88.9 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MicroHard"
+				(path "/578bd531-a491-4b15-a479-460d159ffc14"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 134.366 15.748)
 		(size 39.878 45.974)
 		(fields_autoplaced yes)
