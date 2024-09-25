@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "BGA256C100P16X16_1700X1700X155"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "BGA256C100P16X16_1700X1700X155")
+        (spec "default")
+    )
+)

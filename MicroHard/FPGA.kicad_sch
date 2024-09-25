@@ -475,7 +475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KMR221_CNK"
+		(property "Footprint" ""
 			(at 35.56 114.3 0)
 			(effects
 				(font

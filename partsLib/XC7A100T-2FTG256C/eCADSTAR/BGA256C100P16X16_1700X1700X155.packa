@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "XC7A100T-2FTG256C"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "BGA256C100P16X16_1700X1700X155")
+        (spec "System")
+    )
+)

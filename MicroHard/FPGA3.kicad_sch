@@ -5747,589 +5747,6 @@
 				)
 			)
 		)
-		(symbol "R_1k_0402_2"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 20.32 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_1k_0402_2"
-				(at 20.32 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-				(at 20.32 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-				(at 20.32 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "1k resistor in 0402 package with 1% tolerance"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CR0402-FX-1001GLF"
-				(at 20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Bourns"
-				(at 20.32 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "1k"
-				(at 20.32 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 20.32 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "R_1k_0402_2_0_1"
-				(rectangle
-					(start 0.635 0.889)
-					(end 4.445 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1k_0402_2_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Transistor_FET:2N7002"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N7002"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel Switching MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N7002_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "2N7002_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "antmicropower:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 8.89 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 8.89 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 8.89 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 8.89 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 8.89 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 8.89 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -6452,10 +5869,22 @@
 		(uuid "1cc784d3-6ef3-454e-8c6b-70a5da153529")
 	)
 	(junction
+		(at 151.13 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b5d844b-c9e1-4bb8-b110-128a4897e083")
+	)
+	(junction
 		(at 107.95 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c41864f-2c20-4e84-a79e-cfe859e69f6b")
+	)
+	(junction
+		(at 180.34 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cc0b80b-f4af-4322-b2c6-6e7d52e7a3f5")
 	)
 	(junction
 		(at 91.44 24.13)
@@ -6482,6 +5911,12 @@
 		(uuid "57f9275c-dc1e-4caa-b856-26366e1899a5")
 	)
 	(junction
+		(at 76.2 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d8be306-9ff5-4231-b9eb-e76e1628973a")
+	)
+	(junction
 		(at 107.95 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6494,10 +5929,10 @@
 		(uuid "6b4ff518-ccc2-43a7-a9ba-9ce15ef94b4b")
 	)
 	(junction
-		(at 176.53 72.39)
+		(at 151.13 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "717c263b-7e99-46dd-92fb-db09fe9778d4")
+		(uuid "70402402-0168-4ee6-9581-eefc827d0a0b")
 	)
 	(junction
 		(at 107.95 92.71)
@@ -6530,22 +5965,16 @@
 		(uuid "97991d1d-127a-4d37-99ff-4a083ab42ca9")
 	)
 	(junction
-		(at 143.51 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac28e1f8-308f-4820-8def-55061ea404fc")
-	)
-	(junction
 		(at 140.97 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1651211-300b-4362-a8dc-5c86d9b8b14e")
 	)
 	(junction
-		(at 138.43 74.93)
+		(at 76.2 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b30339d3-fa3f-4832-8744-1be16cc177f0")
+		(uuid "c6801f5b-8a83-4d7e-98f0-ed6fa26a5467")
 	)
 	(junction
 		(at 148.59 74.93)
@@ -6558,12 +5987,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d206b0e4-37a5-426a-90ff-2ce33b3b8da0")
-	)
-	(junction
-		(at 143.51 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbd45215-c2fe-4122-981a-9ae09df4f1e8")
 	)
 	(junction
 		(at 245.11 52.07)
@@ -6647,6 +6070,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 138.43) (xy 62.23 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6fe30d-5cd1-4b81-ae1e-331e94a9a777")
+	)
+	(wire
+		(pts
 			(xy 107.95 92.71) (xy 107.95 95.25)
 		)
 		(stroke
@@ -6677,26 +6110,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 127) (xy 69.85 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e1a1e75-5a9e-4eb7-a32c-7f1e5a274b69")
-	)
-	(wire
-		(pts
-			(xy 46.99 140.97) (xy 46.99 141.605)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e999c65-3674-4416-b9ce-b4c6351e6a1d")
-	)
-	(wire
-		(pts
 			(xy 107.95 62.23) (xy 107.95 63.5)
 		)
 		(stroke
@@ -6717,16 +6130,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 135.89) (xy 187.96 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2792ce1f-acf8-4053-8b37-52ada0f2ef99")
-	)
-	(wire
-		(pts
 			(xy 175.26 53.34) (xy 175.26 24.13)
 		)
 		(stroke
@@ -6737,13 +6140,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 127) (xy 218.44 127)
+			(xy 69.85 147.32) (xy 76.2 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fd5e6e8-4453-43cd-9623-ea3da1433c68")
+		(uuid "2c9925b3-e5dd-4543-97d7-fd8f4309580f")
 	)
 	(wire
 		(pts
@@ -6757,13 +6160,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 157.48) (xy 66.04 157.48)
+			(xy 38.1 154.94) (xy 48.26 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a15a1d6-eb9e-49c9-b3e2-43aac4d7ed02")
+		(uuid "3e24da12-7bde-464e-9271-8d9063b427c2")
 	)
 	(wire
 		(pts
@@ -6777,53 +6180,33 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 127) (xy 144.78 127)
+			(xy 151.13 69.85) (xy 160.02 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4107f651-0432-4bea-9189-a6fb71e138d9")
+		(uuid "4055da48-b22a-4737-bb1e-a4e03d03aaad")
 	)
 	(wire
 		(pts
-			(xy 121.92 140.97) (xy 121.92 141.605)
+			(xy 38.1 138.43) (xy 48.26 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "419fb301-9ae3-4ec5-9a28-2da7105ec67f")
+		(uuid "42e2aeb9-0f12-4848-ad05-fe8608458d03")
 	)
 	(wire
 		(pts
-			(xy 195.58 140.97) (xy 195.58 141.605)
+			(xy 69.85 138.43) (xy 76.2 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43734797-7dd0-4782-b602-22829e0f7b77")
-	)
-	(wire
-		(pts
-			(xy 121.92 127) (xy 121.92 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4547aa23-748f-44f5-92d3-2766941019a3")
-	)
-	(wire
-		(pts
-			(xy 116.84 172.72) (xy 116.84 173.355)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46589314-1fd4-498b-9d79-7009643487ae")
+		(uuid "46b2c4b5-a834-40ae-af80-4f818b1d45db")
 	)
 	(wire
 		(pts
@@ -6867,16 +6250,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 158.75) (xy 116.84 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d9bea56-c7ba-4e0a-ba7e-ebbe20e9675e")
-	)
-	(wire
-		(pts
 			(xy 160.02 69.85) (xy 167.64 69.85)
 		)
 		(stroke
@@ -6887,17 +6260,27 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 127) (xy 152.4 127)
+			(xy 59.69 125.73) (xy 66.04 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e3fc57f-3bee-4003-a559-10c220dd608b")
+		(uuid "4e928ac0-ac4a-49ba-ac0b-7108de3500c4")
 	)
 	(wire
 		(pts
-			(xy 143.51 24.13) (xy 175.26 24.13)
+			(xy 55.88 147.32) (xy 62.23 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52bf6e14-ff20-4b61-a453-bb0028dc7e10")
+	)
+	(wire
+		(pts
+			(xy 140.97 24.13) (xy 151.13 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6907,33 +6290,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 74.93) (xy 144.78 74.93)
+			(xy 107.95 74.93) (xy 144.78 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "586d93c1-4866-48e1-8034-41791ecb9fee")
-	)
-	(wire
-		(pts
-			(xy 139.7 69.85) (xy 143.51 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cbb8134-0829-454e-8b1d-983b2d32d279")
-	)
-	(wire
-		(pts
-			(xy 43.18 157.48) (xy 52.07 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "606bcc9d-2deb-4c5e-afae-01162d873383")
 	)
 	(wire
 		(pts
@@ -6977,16 +6340,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 167.64) (xy 109.22 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "710f2297-6975-4900-80a3-9bddc292ee86")
-	)
-	(wire
-		(pts
 			(xy 252.73 49.53) (xy 252.73 52.07)
 		)
 		(stroke
@@ -6997,33 +6350,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 72.39) (xy 176.53 76.2)
+			(xy 180.34 72.39) (xy 180.34 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "739dcd38-0917-403c-a893-54a420ce370b")
-	)
-	(wire
-		(pts
-			(xy 43.18 171.45) (xy 43.18 172.085)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73dc8199-c252-475e-8e6d-07ff6dd7488a")
-	)
-	(wire
-		(pts
-			(xy 121.92 127) (xy 130.81 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76d26551-1c20-4706-a8cb-261d2d172252")
 	)
 	(wire
 		(pts
@@ -7037,26 +6370,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 127) (xy 55.88 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77d62a42-838a-49a4-9098-67e3892d4c52")
-	)
-	(wire
-		(pts
-			(xy 74.93 127) (xy 77.47 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a2019c1-b0cc-4eab-848b-8e6b122c753e")
-	)
-	(wire
-		(pts
 			(xy 245.11 66.04) (xy 262.89 66.04)
 		)
 		(stroke
@@ -7067,7 +6380,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 69.85) (xy 132.08 69.85)
+			(xy 107.95 69.85) (xy 151.13 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7087,36 +6400,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 24.13) (xy 143.51 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e4917a7-7730-4ca0-bb13-c796ad94fcc3")
-	)
-	(wire
-		(pts
-			(xy 223.52 127) (xy 226.06 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f08198e-b358-4aad-a62f-11beb8d5bef8")
-	)
-	(wire
-		(pts
-			(xy 140.97 24.13) (xy 143.51 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fd02639-9ffc-47ec-84a8-ed0bd854a3db")
-	)
-	(wire
-		(pts
 			(xy 107.95 44.45) (xy 115.57 44.45)
 		)
 		(stroke
@@ -7124,26 +6407,6 @@
 			(type default)
 		)
 		(uuid "81adf364-645f-4687-a0f1-25f89d66b31a")
-	)
-	(wire
-		(pts
-			(xy 176.53 72.39) (xy 189.23 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8376201d-666b-4bfc-8569-e572868aebde")
-	)
-	(wire
-		(pts
-			(xy 46.99 127) (xy 46.99 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8418f5cf-a206-48a0-852a-44f34eac1d51")
 	)
 	(wire
 		(pts
@@ -7157,23 +6420,33 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 166.37) (xy 35.56 166.37)
+			(xy 180.34 72.39) (xy 189.23 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88e823b6-bf58-4b4c-99af-659674a602a1")
+		(uuid "86ec743c-bd88-4284-b421-d83014d72864")
 	)
 	(wire
 		(pts
-			(xy 29.21 135.89) (xy 39.37 135.89)
+			(xy 29.21 125.73) (xy 39.37 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8ae40395-4789-44da-9a8c-56ceb453e818")
+	)
+	(wire
+		(pts
+			(xy 38.1 147.32) (xy 48.26 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b52a100-56ba-43a1-bfa5-c49d49562423")
 	)
 	(wire
 		(pts
@@ -7184,16 +6457,6 @@
 			(type default)
 		)
 		(uuid "9022a4e3-5c7b-4045-8e8d-0bb0428832b1")
-	)
-	(wire
-		(pts
-			(xy 138.43 74.93) (xy 138.43 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90365b89-c7ea-4d4b-acbb-3550190d8cc3")
 	)
 	(wire
 		(pts
@@ -7247,16 +6510,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 158.75) (xy 147.32 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a62b88c-26ea-4a5c-8b3b-31a5a7e20a20")
-	)
-	(wire
-		(pts
 			(xy 64.77 24.13) (xy 83.82 24.13)
 		)
 		(stroke
@@ -7277,13 +6530,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 157.48) (xy 73.66 157.48)
+			(xy 76.2 138.43) (xy 76.2 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0e1dea2-ec96-4735-98e2-3452abbdefb5")
+		(uuid "a3ca3085-ab95-4405-84fd-170c03da4508")
 	)
 	(wire
 		(pts
@@ -7297,16 +6550,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 69.85) (xy 146.05 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3eb8de0-2d9e-4cb3-ac82-c037ab3482f3")
-	)
-	(wire
-		(pts
 			(xy 227.33 71.12) (xy 262.89 71.12)
 		)
 		(stroke
@@ -7317,13 +6560,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 72.39) (xy 176.53 72.39)
+			(xy 175.26 72.39) (xy 180.34 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a8dd41d7-bcc4-4fa8-adc2-c88eb183390b")
+	)
+	(wire
+		(pts
+			(xy 76.2 154.94) (xy 76.2 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac784e1b-5717-4176-8ea2-e7cfd159f103")
 	)
 	(wire
 		(pts
@@ -7337,16 +6590,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 74.93) (xy 138.43 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afaa71c4-f150-410e-be5d-3e957c407ee3")
-	)
-	(wire
-		(pts
 			(xy 275.59 73.66) (xy 275.59 76.2)
 		)
 		(stroke
@@ -7357,16 +6600,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 69.85) (xy 160.02 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1f15453-660d-4be8-a802-fc64112a5296")
-	)
-	(wire
-		(pts
 			(xy 107.95 46.99) (xy 115.57 46.99)
 		)
 		(stroke
@@ -7374,16 +6607,6 @@
 			(type default)
 		)
 		(uuid "b40ae483-2237-4e94-88d5-c5043d86814a")
-	)
-	(wire
-		(pts
-			(xy 43.18 157.48) (xy 43.18 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6ad0847-2253-48c2-a739-edfd8807a63a")
 	)
 	(wire
 		(pts
@@ -7407,16 +6630,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 127) (xy 204.47 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd41507b-ee1b-4419-8b8e-74a359b0a732")
-	)
-	(wire
-		(pts
 			(xy 107.95 90.17) (xy 107.95 92.71)
 		)
 		(stroke
@@ -7427,33 +6640,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 158.75) (xy 125.73 158.75)
+			(xy 52.07 125.73) (xy 46.99 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf202638-ab10-41ec-97c6-23f86a7096e0")
-	)
-	(wire
-		(pts
-			(xy 195.58 127) (xy 195.58 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf544dea-61ed-4f8b-96f8-529e36a33861")
-	)
-	(wire
-		(pts
-			(xy 104.14 135.89) (xy 114.3 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3845c72-c169-40de-8550-004d04cc8bf0")
+		(uuid "c398317c-c614-4c3f-9e56-ab78ed4c99a9")
 	)
 	(wire
 		(pts
@@ -7487,6 +6680,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 57.15) (xy 151.13 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d48587a1-e7dc-4ad3-a870-f014afa79b3e")
+	)
+	(wire
+		(pts
 			(xy 107.95 63.5) (xy 119.38 63.5)
 		)
 		(stroke
@@ -7517,13 +6720,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 158.75) (xy 139.7 158.75)
+			(xy 69.85 154.94) (xy 76.2 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec513545-6ddc-46a1-b7e7-61610997c139")
+		(uuid "e68d6bcc-d3b2-4d41-a175-953babb43e56")
 	)
 	(wire
 		(pts
@@ -7567,6 +6770,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 147.32) (xy 76.2 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28176ca-a1b9-4859-bc14-403c88f2271d")
+	)
+	(wire
+		(pts
 			(xy 245.11 66.04) (xy 245.11 62.23)
 		)
 		(stroke
@@ -7574,6 +6787,16 @@
 			(type default)
 		)
 		(uuid "f40ee44d-e6e5-4715-9a8d-f02c390dbe60")
+	)
+	(wire
+		(pts
+			(xy 55.88 154.94) (xy 62.23 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e5411f-4c27-4631-99dd-497418251623")
 	)
 	(wire
 		(pts
@@ -7587,6 +6810,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 24.13) (xy 175.26 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98fa9ff-fca2-4a28-a225-070d52d210ff")
+	)
+	(wire
+		(pts
 			(xy 107.95 57.15) (xy 118.11 57.15)
 		)
 		(stroke
@@ -7594,6 +6827,16 @@
 			(type default)
 		)
 		(uuid "fcb0c9e7-6c2f-4572-a3c6-116ddd043653")
+	)
+	(wire
+		(pts
+			(xy 151.13 24.13) (xy 151.13 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8943ae-448c-4eb8-8a4b-11db67fa618f")
 	)
 	(rectangle
 		(start 214.884 38.608)
@@ -7606,16 +6849,6 @@
 			(type none)
 		)
 		(uuid 3f65b627-9fb7-444b-b752-3cdb340fad7e)
-	)
-	(text "VCC\n"
-		(exclude_from_sim no)
-		(at 145.796 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "050e5179-bc7f-4867-a89f-2738fd299715")
 	)
 	(text "FPGA DEBUG"
 		(exclude_from_sim no)
@@ -7759,7 +6992,7 @@
 		(uuid "a86cd0c0-0023-4f49-986d-c22f8d746e34")
 	)
 	(label "DONE"
-		(at 29.21 135.89 180)
+		(at 29.21 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7791,17 +7024,6 @@
 		)
 		(uuid "e2ad9da0-bae8-4e41-83c9-c608bd44e9a9")
 	)
-	(label "DONE"
-		(at 138.43 82.55 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb780e2c-9e07-4e93-93b1-6124e9980f31")
-	)
 	(global_label "INIT"
 		(shape input)
 		(at 189.23 72.39 0)
@@ -7815,160 +7037,6 @@
 		(uuid "1722e135-fcac-48b7-9547-900cef079c37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 195.7229 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 147.32 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1c2324b4-056c-40db-821d-4e07b468163b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.99 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FPGA_LED0"
-		(shape input)
-		(at 104.14 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1c2ae018-bc76-4354-a5a9-c8d825c8915e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.8134 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 152.4 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "22a0fa22-febf-40d5-8e4a-6f1548f9a315")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.07 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FPGA_LED1"
-		(shape input)
-		(at 104.14 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3b2478e4-74fa-4c60-be32-39a867a215cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.8134 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FPGA_LED2"
-		(shape input)
-		(at 182.88 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f305548-e328-4635-9488-6e4f2ef2fbaf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.5534 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 77.47 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "44cbd18a-313e-4db0-b9da-77f9725a77f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.14 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 73.66 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "50939d36-e5cc-418e-be7d-b2342202ce2c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.33 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8022,9 +7090,9 @@
 			)
 		)
 	)
-	(global_label "INIT"
+	(global_label "FPGA_LED2"
 		(shape input)
-		(at 29.21 166.37 180)
+		(at 38.1 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8032,13 +7100,36 @@
 			)
 			(justify right)
 		)
-		(uuid "9996e7c6-6508-4cd3-b997-2cda4a56ec6f")
+		(uuid "7fa81816-544a-412f-afa1-c224719acda1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -74.295 -41.275 0)
+			(at 24.7734 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FPGA_LED0"
+		(shape input)
+		(at 38.1 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8edc538a-9ce9-47fe-a2f9-bb855134c6b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.7734 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8087,24 +7178,24 @@
 			)
 		)
 	)
-	(global_label "+3.3V"
+	(global_label "FPGA_LED1"
 		(shape input)
-		(at 226.06 127 0)
+		(at 38.1 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "b8f3cc80-d8e2-4a40-b2e9-1a4c9f6bf8c2")
+		(uuid "e4458a3b-d187-4daa-98c2-e0cae79a35ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.73 127 0)
+			(at 24.7734 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8143,7 +7234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "046124b3-5e69-49e5-9d2b-4038f5e9147c")
-		(property "Reference" "R23"
+		(property "Reference" "R63"
 			(at 177.8 55.8799 0)
 			(effects
 				(font
@@ -8197,145 +7288,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_1k_0402_2")
-		(lib_id "antmicroResistors0402:R_1k_0402")
-		(at 69.85 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "084dceeb-b35f-4f4a-b3ee-ca2121d4434b")
-		(property "Reference" "R17"
-			(at 72.39 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_1k_0402"
-			(at 90.17 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 90.17 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 90.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 90.17 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1001GLF"
-			(at 90.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "1k"
-			(at 72.39 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 90.17 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 90.17 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 90.17 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4126d9e-1ed0-4339-996f-38d2963e8a45")
-		)
-		(pin "2"
-			(uuid "74f80f37-1426-44ce-897c-48644f5df060")
-		)
-		(instances
-			(project "MicroHard"
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "R17")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -8343,7 +7296,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 176.53 76.2 180)
+		(at 180.34 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8352,7 +7305,7 @@
 		(fields_autoplaced yes)
 		(uuid "120940a5-b0b8-4378-8b82-b68fbe0e07f7")
 		(property "Reference" "TP3"
-			(at 179.07 78.2319 0)
+			(at 182.88 78.2319 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8361,7 +7314,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 179.07 80.7719 0)
+			(at 182.88 80.7719 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,7 +7323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 76.2 0)
+			(at 175.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,7 +7332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 76.2 0)
+			(at 175.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +7341,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 176.53 76.2 0)
+			(at 180.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,33 +7362,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 134.62 127 0)
+		(lib_id "Device:R")
+		(at 151.13 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "16ffebae-7012-44ae-99b6-366c9e154db0")
-		(property "Reference" "D5"
-			(at 133.0325 120.65 0)
+		(uuid "17e39133-3026-43d7-8c13-622310238379")
+		(property "Reference" "R61"
+			(at 153.67 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 133.0325 123.19 0)
+		(property "Value" "200"
+			(at 153.67 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 127 0)
+			(at 149.352 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8444,7 +7399,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 127 0)
+			(at 151.13 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8452,112 +7407,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 134.62 127 0)
+		(property "Description" "Resistor"
+			(at 151.13 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "4d838214-017f-40e3-958e-d855a5b2683c")
 		)
 		(pin "2"
-			(uuid "4cb2a50b-8723-4fb9-83f9-6ce7b63afb9b")
-		)
-		(instances
-			(project "MicroHard"
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 46.99 141.605 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "187f5dc3-7503-46d3-bfc5-e57f0c3ca49a")
-		(property "Reference" "#PWR031"
-			(at 46.99 147.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 55.88 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 55.88 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
+			(uuid "48f9840d-3c51-43dd-bba1-2bb151bbe361")
 		)
 		(pin "1"
-			(uuid "03c2630e-b80c-4aaf-b7b9-bce3091b1945")
+			(uuid "89375a0a-079d-4a03-bcf6-5cf06afda9b4")
 		)
 		(instances
-			(project "MicroHard"
+			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "#PWR031")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -8573,7 +7441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23124ce2-ab6a-4f73-b4bc-dbb97be20a10")
-		(property "Reference" "R25"
+		(property "Reference" "R64"
 			(at 237.49 57.1499 0)
 			(effects
 				(font
@@ -8627,119 +7495,32 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "R25")
+					(reference "R64")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 121.92 141.605 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "279debe5-78bb-46ce-a86f-bdaa7ae799df")
-		(property "Reference" "#PWR036"
-			(at 121.92 147.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 145.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 130.81 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 130.81 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "503ef25b-97ec-47fa-ad84-2e13409aa46f")
-		)
-		(instances
-			(project "MicroHard"
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 55.88 157.48 0)
+		(lib_id "Device:R")
+		(at 43.18 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "313a4e3d-eeba-4335-901f-f54c128b2ab7")
-		(property "Reference" "D2"
-			(at 54.2925 151.13 0)
+		(uuid "26b901b0-a92b-4ef9-83a2-291cb194b42d")
+		(property "Reference" "R22"
+			(at 43.18 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 54.2925 153.67 0)
+		(property "Value" "100"
+			(at 43.18 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,7 +7528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 157.48 0)
+			(at 43.18 127.508 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8756,7 +7537,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 157.48 0)
+			(at 43.18 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,8 +7545,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 55.88 157.48 0)
+		(property "Description" "Resistor"
+			(at 43.18 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8774,107 +7555,99 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f503632-ebe2-4ca6-856a-5717d31b2d4c")
+			(uuid "924d77de-53b0-4abf-b2d3-66cb0c344407")
 		)
 		(pin "2"
-			(uuid "6e7a987f-ec78-4c1e-89aa-0064f0ff2a7f")
+			(uuid "32026d38-c0a8-49be-95e1-d2dc9eb55244")
 		)
 		(instances
-			(project "MicroHard"
+			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "D2")
+					(reference "R22")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 40.64 166.37 0)
+		(lib_id "Device:R")
+		(at 52.07 154.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b328d9b-4c16-43fe-8b8c-9d01175ce636")
+		(property "Reference" "R26"
+			(at 52.324 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 52.07 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 153.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65dece8d-3fb4-4297-b6df-512e966e5774")
+		)
+		(pin "1"
+			(uuid "497df01f-1266-4cb3-b02d-a4f483432d8e")
+		)
+		(instances
+			(project "MicroHard"
+				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "31443d4a-0146-4675-9e2b-f65692c91643")
-		(property "Reference" "Q1"
-			(at 46.99 165.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 46.99 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 45.72 168.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 45.72 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 40.64 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "66f106a8-9266-4f89-8e4a-ea19eed4d48d")
-		)
-		(pin "1"
-			(uuid "0f792f41-ef76-41d9-92cf-72c25f5ee6b8")
-		)
-		(pin "2"
-			(uuid "845021cf-3e52-4073-9ea6-6de24dce7aab")
-		)
-		(instances
-			(project "MicroHard"
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 43.18 172.085 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37ba0204-e0f8-41f7-9deb-67cf70d1d4db")
-		(property "Reference" "#PWR030"
-			(at 43.18 178.435 0)
+		(uuid "4c09cf26-5eb0-4adc-9943-c3aab9a73ffb")
+		(property "Reference" "#PWR032"
+			(at 76.2 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8883,7 +7656,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 175.895 0)
+			(at 76.2 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +7664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 172.085 0)
+			(at 76.2 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8900,7 +7673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 172.085 0)
+			(at 76.2 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,100 +7681,55 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 43.18 172.085 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 52.07 179.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 52.07 182.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "80c9cf10-b8d9-4c48-a3b2-b90f89242570")
+			(uuid "00e60828-5b22-403d-8030-77630f785264")
 		)
 		(instances
-			(project "MicroHard"
+			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 114.3 167.64 0)
+		(lib_id "Device:LED")
+		(at 55.88 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3e826498-538b-4195-b3cb-8f8438fee52e")
-		(property "Reference" "Q3"
-			(at 120.65 166.3699 0)
+		(uuid "52602b16-cca4-4f2d-8387-988d9d039d80")
+		(property "Reference" "D2"
+			(at 57.4675 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
-			(at 120.65 168.9099 0)
+		(property "Value" "LED"
+			(at 57.4675 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 119.38 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 119.38 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 114.3 167.64 0)
+		(property "Footprint" ""
+			(at 55.88 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9009,19 +7737,34 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "630edbfe-545a-44ca-9733-25751cb6b002")
+		(property "Datasheet" "~"
+			(at 55.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 55.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "cae0c31f-4276-4f70-b125-ce397da395e2")
+			(uuid "128736f6-ddb0-4601-83ee-d4124fd67a61")
 		)
 		(pin "2"
-			(uuid "7aabaf59-768e-40c3-9899-7a0a5019b49f")
+			(uuid "65d50c50-f2a2-40a4-9eca-b7c019c7d8d8")
 		)
 		(instances
-			(project "MicroHard"
+			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "Q3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9095,56 +7838,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 44.45 135.89 0)
+		(lib_id "power:GND")
+		(at 66.04 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "58eb2937-218d-4f2b-9f20-9e0ec5f90bf2")
-		(property "Reference" "Q2"
-			(at 50.8 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 50.8 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 49.53 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 49.53 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 44.45 135.89 0)
+		(uuid "67cf2fd3-63e0-4645-896f-fd57eaba6a49")
+		(property "Reference" "#PWR031"
+			(at 72.39 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9152,19 +7856,49 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "38608171-6eea-4388-a43f-77aa251bceb6")
+		(property "Value" "GND"
+			(at 69.85 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "22e7c14f-3520-40e3-a15f-0ee4443bdcf8")
-		)
-		(pin "2"
-			(uuid "7c381831-f8ca-46ea-8ed7-26fe758e762f")
+			(uuid "e4fcea41-fff6-4cdb-81e1-d4ba458a66b9")
 		)
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "Q2")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9350,7 +8084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e524013-01fb-41d1-881f-51ab35c81648")
-		(property "Reference" "R22"
+		(property "Reference" "R62"
 			(at 154.94 86.36 90)
 			(effects
 				(font
@@ -9402,221 +8136,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 193.04 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ebeb8f8-03e4-4302-a0ef-a505b5186456")
-		(property "Reference" "Q5"
-			(at 199.39 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 199.39 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 198.12 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 198.12 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 193.04 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "bfacced5-5a35-4bf5-a01f-6be7e69569c9")
-		)
-		(pin "1"
-			(uuid "79420ae1-6205-49f0-ae7d-af1eb0c2bdae")
-		)
-		(pin "2"
-			(uuid "0c34e818-b6ea-4a28-b86a-cfc137c909d2")
-		)
-		(instances
-			(project "MicroHard"
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_1k_0402_2")
-		(lib_id "antmicroResistors0402:R_1k_0402")
-		(at 218.44 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "843a74f1-f77e-47f6-b061-e21e94ea3bfa")
-		(property "Reference" "R24"
-			(at 220.98 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_1k_0402"
-			(at 238.76 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 238.76 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 238.76 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 238.76 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1001GLF"
-			(at 238.76 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "1k"
-			(at 220.98 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 238.76 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 238.76 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 238.76 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94c33b53-8bf9-466b-91d4-e6819aaba960")
-		)
-		(pin "2"
-			(uuid "7af0ca66-fbe5-4264-917f-125769ed6cd1")
-		)
-		(instances
-			(project "MicroHard"
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "R24")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -9624,16 +8144,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 208.28 127 0)
+		(at 66.04 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e310b9f-2b42-49a3-80c2-532d5e630a1e")
-		(property "Reference" "D6"
-			(at 206.6925 120.65 0)
+		(uuid "8a5c1678-2638-462d-a944-9b81cbc49bcf")
+		(property "Reference" "D5"
+			(at 65.786 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9641,7 +8160,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 206.6925 123.19 0)
+			(at 66.04 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9649,7 +8168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 127 0)
+			(at 66.04 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9658,7 +8177,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 127 0)
+			(at 66.04 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9667,7 +8186,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 208.28 127 0)
+			(at 66.04 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9676,83 +8195,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c8cb282-ad5f-4fa9-bce1-19249b5cfc91")
+			(uuid "fd5e0ab0-64cb-4751-ae3a-b3a7abe1093d")
 		)
 		(pin "2"
-			(uuid "b8fc7f2d-5ba3-4725-bd56-0ba0ea6c91dc")
+			(uuid "ebbc6ce5-4f00-4b75-92e9-f9d3e85c5a2f")
 		)
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 59.69 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8edd3cc5-6f8d-4d56-bd80-49931cb6ee4c")
-		(property "Reference" "D3"
-			(at 58.1025 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 58.1025 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 59.69 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c9cf770-a989-41a1-a2fd-3c42f3c7045e")
-		)
-		(pin "2"
-			(uuid "51320c3a-a2a7-4c41-ad66-1d217842eb32")
-		)
-		(instances
-			(project ""
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9786,7 +8237,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MicroHard:BGA256C100P16X16_1700X1700X155"
 			(at 69.85 64.77 0)
 			(effects
 				(font
@@ -10657,25 +9108,24 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 195.58 141.605 0)
+		(lib_id "Device:R")
+		(at 52.07 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9d41ff00-a8e3-48ac-a760-62a3732c6fab")
-		(property "Reference" "#PWR037"
-			(at 195.58 147.955 0)
+		(uuid "b745e185-f609-4ae3-a86e-1d3e9c527c93")
+		(property "Reference" "R25"
+			(at 52.324 145.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 195.58 145.415 0)
+		(property "Value" "330"
+			(at 52.07 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10683,7 +9133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 141.605 0)
+			(at 52.07 145.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10691,8 +9141,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 195.58 141.605 0)
+		(property "Datasheet" "~"
+			(at 52.07 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10700,8 +9150,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 195.58 141.605 0)
+		(property "Description" "Resistor"
+			(at 52.07 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10709,35 +9159,16 @@
 				(hide yes)
 			)
 		)
-		(property "Author" "Antmicro"
-			(at 204.47 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 204.47 151.765 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "e64ecbb0-af06-453c-a8d2-d2b7551c2e36")
 		)
 		(pin "1"
-			(uuid "cfb80c20-8433-40d4-ac1e-43913a922785")
+			(uuid "97416dbc-36f3-4bdd-8784-3d86610b7e07")
 		)
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "#PWR037")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -10811,74 +9242,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 129.54 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b80ef6dc-02b0-4463-8d63-a6ad5e3856b3")
-		(property "Reference" "D4"
-			(at 127.9525 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 127.9525 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 129.54 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5125a860-844b-4ae8-b93a-0ef2f0c5e891")
-		)
-		(pin "2"
-			(uuid "79415d6b-631f-45b2-a456-de446bc1cf0f")
-		)
-		(instances
-			(project "MicroHard"
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 119.38 63.5 90)
 		(unit 1)
@@ -10946,6 +9309,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 66.04 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5667e3f-fd83-44b5-ab15-cdce66dbc1a4")
+		(property "Reference" "D3"
+			(at 65.786 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 66.04 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 66.04 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04f4d9ad-b7f5-4b80-bd93-fe4ab167756f")
+		)
+		(pin "2"
+			(uuid "5db333a3-2443-4cb9-8b83-241eda246a2d")
+		)
+		(instances
+			(project "MicroHard"
+				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 63.5 16.51 270)
 		(unit 1)
@@ -10955,7 +9385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc1415c0-51bc-4d80-9256-45b64d350954")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 57.15 16.51 0)
 			(effects
 				(font
@@ -11006,145 +9436,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_1k_0402_2")
-		(lib_id "antmicroResistors0402:R_1k_0402")
-		(at 139.7 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc80d7fc-51dd-473d-a74c-77550be5d4c0")
-		(property "Reference" "R19"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_1k_0402"
-			(at 160.02 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 160.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 160.02 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 160.02 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1001GLF"
-			(at 160.02 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "1k"
-			(at 142.24 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 160.02 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 160.02 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 160.02 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fb5faa2-73d3-42a4-af50-a0d06d5772a5")
-		)
-		(pin "2"
-			(uuid "1b343bd9-6b64-4265-a20a-9e5e6963274c")
-		)
-		(instances
-			(project "MicroHard"
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "R19")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11160,7 +9452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d107538b-f859-407b-8f5d-d06c6e83ea7d")
-		(property "Reference" "R26"
+		(property "Reference" "R65"
 			(at 247.65 57.1499 0)
 			(effects
 				(font
@@ -11214,170 +9506,31 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "R26")
+					(reference "R65")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "R_1k_0402_2")
-		(lib_id "antmicroResistors0402:R_1k_0402")
-		(at 66.04 157.48 0)
+		(lib_id "Device:LED")
+		(at 66.04 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d5c0cca6-e93b-464f-a13a-d06b47e2e0f3")
-		(property "Reference" "R16"
-			(at 68.58 154.94 0)
+		(uuid "da18db10-362c-48b1-8369-c8f990bc1406")
+		(property "Reference" "D4"
+			(at 65.786 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_1k_0402"
-			(at 86.36 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 86.36 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 86.36 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 86.36 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1001GLF"
-			(at 86.36 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "1k"
-			(at 68.58 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 86.36 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 86.36 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 86.36 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b964479-66a8-4fff-b7ca-5419c32a657e")
-		)
-		(pin "2"
-			(uuid "0dacfe60-2a5e-4441-9936-14f5b61608e7")
-		)
-		(instances
-			(project "MicroHard"
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 116.84 173.355 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6d86ed2-f122-4873-b593-056d042b04c6")
-		(property "Reference" "#PWR034"
-			(at 116.84 179.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 177.165 0)
+		(property "Value" "LED"
+			(at 66.04 149.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11385,94 +9538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 173.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 173.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 173.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 125.73 180.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 125.73 183.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01bbafe4-1776-40e0-86a4-7afbe6ac0ba8")
-		)
-		(instances
-			(project "MicroHard"
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 149.86 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e478df34-b6e8-4e4a-a004-fd16a79f085e")
-		(property "Reference" "R21"
-			(at 149.86 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 149.86 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 71.628 90)
+			(at 66.04 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11481,7 +9547,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 69.85 0)
+			(at 66.04 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11489,8 +9555,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 149.86 69.85 0)
+		(property "Description" "Light emitting diode"
+			(at 66.04 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11499,15 +9565,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c0e4083-81fc-44df-904a-9753542b7422")
+			(uuid "5c4b2e96-2331-4650-b384-ef9c5e00e557")
 		)
 		(pin "2"
-			(uuid "0fb4f160-5fd3-4f63-9bec-15d65cdde5f2")
+			(uuid "c101f35c-44cc-47eb-a4cd-7a44b910c326")
 		)
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "R21")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6277096-8ef8-44f1-8622-9da5f876ccad")
+		(property "Reference" "R23"
+			(at 52.324 136.398 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 52.07 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec73ae0d-5fc1-4b25-870c-441d7441adda")
+		)
+		(pin "1"
+			(uuid "753862cf-b2db-4b0a-a129-99815e5de84b")
+		)
+		(instances
+			(project ""
+				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -11575,288 +9708,6 @@
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 135.89 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f64e6a9e-a688-404d-82cb-f364d25684d0")
-		(property "Reference" "R18"
-			(at 135.89 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 135.89 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 135.89 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09435f33-d4d7-4371-8134-302d69ea8092")
-		)
-		(pin "2"
-			(uuid "6dc219df-f90f-4fab-938a-23717fa98eca")
-		)
-		(instances
-			(project "MicroHard"
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_1k_0402_2")
-		(lib_id "antmicroResistors0402:R_1k_0402")
-		(at 144.78 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc733a2e-7e49-4717-a361-b5c79f2bc120")
-		(property "Reference" "R20"
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_1k_0402"
-			(at 165.1 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 165.1 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 165.1 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 165.1 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1001GLF"
-			(at 165.1 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "1k"
-			(at 147.32 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 165.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 165.1 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 165.1 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89cf97d4-273f-463c-a50d-6106fa551fbe")
-		)
-		(pin "2"
-			(uuid "9b256d42-3860-48eb-ab71-f7ec55eddb51")
-		)
-		(instances
-			(project "MicroHard"
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 119.38 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff0be787-c5b7-4d72-9c76-885506fa247b")
-		(property "Reference" "Q4"
-			(at 125.73 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 125.73 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 124.46 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 124.46 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 119.38 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "bc56ef35-74f7-4f40-93e5-aaf8a87560ff")
-		)
-		(pin "1"
-			(uuid "43744651-0b78-4c92-8263-345ecffbd296")
-		)
-		(pin "2"
-			(uuid "be9603b2-54e0-4d70-b608-d0d899f6af4b")
-		)
-		(instances
-			(project "MicroHard"
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/5897012d-c01f-459a-b65a-eba111a7dafb"
-					(reference "Q4")
 					(unit 1)
 				)
 			)

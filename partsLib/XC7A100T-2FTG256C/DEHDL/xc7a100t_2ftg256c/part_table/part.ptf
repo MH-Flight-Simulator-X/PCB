@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XC7A100T_2FTG256C'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "AMD", "XC7A100T-2FTG256C" (!) = "", "BGA256C100P16X16_1700X1700X155", "BGA", "217-C7A100T-2FTG256C", "https://www.mouser.co.uk/ProductDetail/AMD-Xilinx/XC7A100T-2FTG256C?qs=rrS6PyfT74fWZgLrTYQTIA%3D%3D", "FPGA - Field Programmable Gate Array XC7A100T-2FTG256C", "https://componentsearchengine.com/Datasheets/1/XC7A100T-2FTG256C.pdf", "1.55 mm"
+END_PART
+
+END.

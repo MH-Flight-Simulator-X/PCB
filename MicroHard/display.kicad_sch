@@ -2208,7 +2208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-0040_A36+2_MXM"
+		(property "Footprint" ""
 			(at 72.39 71.12 0)
 			(effects
 				(font
@@ -2587,7 +2587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "21-0040_A36+2_MXM"
+		(property "Footprint" ""
 			(at 219.71 72.39 0)
 			(effects
 				(font
