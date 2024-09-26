@@ -686,6 +686,14 @@
     [
       "ddea3422-51f0-4fe7-a47b-97f41b1121b1",
       "VGA out"
+    ],
+    [
+      "85ae7498-e173-4177-8fb1-7abe61a915ce",
+      "Flash Memory"
+    ],
+    [
+      "d1d52a2b-5b40-49cd-910c-847fb6df93bd",
+      "SRAM"
     ]
   ],
   "text_variables": {}

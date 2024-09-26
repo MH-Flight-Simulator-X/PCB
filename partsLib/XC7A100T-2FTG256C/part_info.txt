@@ -1,0 +1,9 @@
+Manufacturer=AMD
+PartNumber=XC7A100T-2FTG256C
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=256
+Version=2.2
+Released=2019-11-29 10:02:46
+Downloaded=2024-09-25 14:34:08
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MT25QL256ABA8ESF-0SIT
+D NOR Flash Serial-SPI 3V/3.3V 256M-bit 32M x 8 16-Pin SOP-II T/R/Tray
+K
+F https://www.arrow.com/en/products/mt25ql256aba8esf-0sit/micron-technology
+$ENDCMP
+#
+#End Doc Library

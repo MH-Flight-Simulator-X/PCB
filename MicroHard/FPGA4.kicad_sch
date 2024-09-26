@@ -5772,6 +5772,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 73.66) (xy 30.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2983698a-0fe8-4d95-89a4-45833b21db74")
+	)
+	(wire
+		(pts
 			(xy 109.22 115.57) (xy 109.22 119.38)
 		)
 		(stroke
@@ -6452,6 +6462,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 71.12) (xy 30.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc06fb35-a379-4143-b581-384978fbc645")
+	)
+	(wire
+		(pts
 			(xy 30.48 106.68) (xy 30.48 109.22)
 		)
 		(stroke
@@ -6728,6 +6748,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+1V8"
+		(shape input)
+		(at 22.86 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cac936b8-b31d-4e77-9afb-dd5ba7516dad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.7948 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8488,7 +8530,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MicroHard:BGA256C100P16X16_1700X1700X155"
 			(at 55.88 91.44 0)
 			(effects
 				(font
@@ -9356,6 +9398,73 @@
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/ad62afa6-e46e-4108-a891-30710955bca2"
 					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceb363a0-1dcd-4dbc-ac8c-35c3a3ebfc58")
+		(property "Reference" "#PWR062"
+			(at 17.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0d7b495-6d9c-4887-8fed-d5456bac5dc9")
+		)
+		(instances
+			(project "MicroHard"
+				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/ad62afa6-e46e-4108-a891-30710955bca2"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
