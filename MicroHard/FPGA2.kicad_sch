@@ -5059,7 +5059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e3fc1e6-5515-4d16-a691-435958aa4519")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 125.73 167.64 0)
 			(effects
 				(font
@@ -5872,7 +5872,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/3b40193c-1579-4de8-9c25-9c04775413b4"
-					(reference "U5")
+					(reference "U4")
 					(unit 2)
 				)
 			)

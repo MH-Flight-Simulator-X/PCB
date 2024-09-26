@@ -1659,7 +1659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06364ac1-583b-453e-a75c-be241da20721")
-		(property "Reference" "R?"
+		(property "Reference" "R71"
 			(at 68.58 78.74 0)
 			(effects
 				(font
@@ -1713,7 +1713,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/1131f32d-45e2-48d4-a5b0-b9e8f8db47f2/d1d52a2b-5b40-49cd-910c-847fb6df93bd"
-					(reference "R?")
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -1729,7 +1729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08954d8c-1bc2-4c48-956c-914d5927a6ab")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR068"
 			(at 120.65 127 0)
 			(effects
 				(font
@@ -1780,7 +1780,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/1131f32d-45e2-48d4-a5b0-b9e8f8db47f2/d1d52a2b-5b40-49cd-910c-847fb6df93bd"
-					(reference "#PWR024")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -1795,7 +1795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "106abe32-0d48-4e3d-88ad-b6fd800820ec")
-		(property "Reference" "C?"
+		(property "Reference" "C80"
 			(at 134.62 133.096 90)
 			(effects
 				(font
@@ -1847,7 +1847,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/1131f32d-45e2-48d4-a5b0-b9e8f8db47f2/d1d52a2b-5b40-49cd-910c-847fb6df93bd"
-					(reference "C?")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -1863,7 +1863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e6b5efe-1fec-449d-bdea-ffaf2175c7f9")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR066"
 			(at 120.65 86.36 0)
 			(effects
 				(font
@@ -1914,7 +1914,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/1131f32d-45e2-48d4-a5b0-b9e8f8db47f2/d1d52a2b-5b40-49cd-910c-847fb6df93bd"
-					(reference "#PWR022")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1930,7 +1930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b30dcaf-737a-458c-bdd0-5181b95c3b1d")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR069"
 			(at 171.45 99.06 0)
 			(effects
 				(font
@@ -1981,7 +1981,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/1131f32d-45e2-48d4-a5b0-b9e8f8db47f2/d1d52a2b-5b40-49cd-910c-847fb6df93bd"
-					(reference "#PWR028")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -1997,7 +1997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa7e5c08-d6c7-4a07-ac2b-ba6582b1d120")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR067"
 			(at 120.65 93.98 0)
 			(effects
 				(font
@@ -2048,7 +2048,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/1131f32d-45e2-48d4-a5b0-b9e8f8db47f2/d1d52a2b-5b40-49cd-910c-847fb6df93bd"
-					(reference "#PWR023")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -2063,7 +2063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d75dd822-4677-4ea5-9a2a-f225791f13e7")
-		(property "Reference" "R?"
+		(property "Reference" "R72"
 			(at 81.28 80.518 0)
 			(effects
 				(font
@@ -2117,7 +2117,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/1131f32d-45e2-48d4-a5b0-b9e8f8db47f2/d1d52a2b-5b40-49cd-910c-847fb6df93bd"
-					(reference "R?")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -2132,7 +2132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f22df153-4f6d-4f24-9afe-aca61e3265ee")
-		(property "Reference" "IC?"
+		(property "Reference" "IC1"
 			(at 145.288 63.754 0)
 			(effects
 				(font
@@ -2312,7 +2312,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88/1131f32d-45e2-48d4-a5b0-b9e8f8db47f2/d1d52a2b-5b40-49cd-910c-847fb6df93bd"
-					(reference "IC?")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
