@@ -10,133 +10,10 @@
 		(rev "v1.0")
 		(company "MicroHard")
 	)
-	(lib_symbols
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-	)
-	(junction
-		(at 27.94 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d45d496-8a29-4009-86b3-111f03209f00")
-	)
+	(lib_symbols)
 	(no_connect
 		(at 76.2 71.12)
 		(uuid "9c4cdd1e-df36-4cef-905d-943cb39084f7")
-	)
-	(wire
-		(pts
-			(xy 27.94 20.32) (xy 38.1 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d3e4e46-e28b-4d77-8790-1ecf8cc66e2e")
-	)
-	(wire
-		(pts
-			(xy 26.67 20.32) (xy 27.94 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac1a5ea2-25aa-4f4d-965b-ec8b137e0cee")
 	)
 	(image
 		(at 269.24 173.99)
@@ -7232,94 +7109,6 @@
 			"AAAIAAAAHABHAEkATQBQbWx1YwAAAAAAAAABAAAADGVuVVMAAAAIAAAAHABzAFIARwBC"
 		)
 	)
-	(global_label "POWER_IN"
-		(shape input)
-		(at 26.67 20.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9efab9a1-10d3-4d24-9618-5b99a542cef4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.311 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 27.94 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e486881e-b0c5-4309-a744-3d766bcc65e4")
-		(property "Reference" "#FLG01"
-			(at 27.94 18.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 27.94 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 27.94 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79d70ad7-3d7c-4c22-ac9c-df3499034bff")
-		)
-		(instances
-			(project ""
-				(path "/578bd531-a491-4b15-a479-460d159ffc14"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 82.804 16.002)
 		(size 40.64 45.72)
@@ -7473,7 +7262,7 @@
 		)
 	)
 	(sheet
-		(at 38.1 16.51)
+		(at 49.53 24.13)
 		(size 21.59 16.51)
 		(fields_autoplaced yes)
 		(stroke
@@ -7485,7 +7274,7 @@
 		)
 		(uuid "f6ee64bd-5b5d-4329-b744-4c552611a962")
 		(property "Sheetname" "Power Supply"
-			(at 38.1 15.7984 0)
+			(at 49.53 23.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,23 +7283,13 @@
 			)
 		)
 		(property "Sheetfile" "PowerSupply.kicad_sch"
-			(at 38.1 33.6046 0)
+			(at 49.53 41.2246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
-		)
-		(pin "POWER_IN" input
-			(at 38.1 20.32 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1df8a921-c134-4a06-853c-4cb4cadc26b9")
 		)
 		(instances
 			(project "MicroHard"
