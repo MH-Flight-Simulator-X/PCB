@@ -5039,6 +5039,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 114.3) (xy 261.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "808d60fb-1970-4277-9320-d366bfbb55f6")
+	)
+	(wire
+		(pts
 			(xy 105.41 36.83) (xy 99.06 36.83)
 		)
 		(stroke
@@ -13189,7 +13199,7 @@
 	)
 	(global_label "Controller_Btn2"
 		(shape output)
-		(at 261.62 114.3 180)
+		(at 238.76 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13199,7 +13209,7 @@
 		)
 		(uuid "4da90974-5ed1-4c00-969f-53a6b1f6d9a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.8789 114.3 0)
+			(at 221.0189 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
