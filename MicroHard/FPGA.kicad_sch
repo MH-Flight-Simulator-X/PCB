@@ -421,16 +421,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 147.32) (xy 205.74 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60abbc8c-4e2d-4e49-abc6-d396de6720f9")
-	)
-	(wire
-		(pts
 			(xy 31.75 121.92) (xy 35.56 121.92)
 		)
 		(stroke
@@ -438,16 +428,6 @@
 			(type default)
 		)
 		(uuid "77fe7344-59d6-4b5c-b6cd-5a9c87bab671")
-	)
-	(text "Wondering if this is gonna break the circuit, VCC comes via the pull up resistor on DONE_0 on the FPGA\nWhich goes high when the FPGA is configed, so in theory just grounding the circuit should set the rest \npin\n"
-		(exclude_from_sim no)
-		(at 69.342 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "110c23bc-717f-40a1-ba61-a607697c2c9a")
 	)
 	(symbol
 		(lib_id "Button:KMR221NGLFS")
@@ -622,16 +602,6 @@
 				(justify left top)
 			)
 		)
-		(pin "FPGA_CONFIG_CLOCK" input
-			(at 205.74 147.32 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ffa26d96-505a-4141-a3c5-10e07c40503e")
-		)
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/e381883e-e672-4900-88a5-08b94f970a88"
@@ -717,16 +687,6 @@
 				(justify left)
 			)
 			(uuid "b40ef5e6-b39a-44e5-bdf9-a988328c6c1d")
-		)
-		(pin "FPGA_CONFIG_CLOCK" input
-			(at 118.11 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e193036b-6b54-498a-96dc-67bf8658f6ba")
 		)
 		(instances
 			(project "MicroHard"

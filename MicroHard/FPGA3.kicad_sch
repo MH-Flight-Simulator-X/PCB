@@ -5899,7 +5899,7 @@
 		(uuid "5476ec87-6d99-49fc-a525-94c5f5aa51ac")
 	)
 	(junction
-		(at 160.02 69.85)
+		(at 156.21 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54b41f98-5c17-4477-b193-0216a44cf590")
@@ -6130,6 +6130,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 69.85) (xy 156.21 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29927adf-14e4-4fe7-be25-ef695e8e6f50")
+	)
+	(wire
+		(pts
 			(xy 175.26 53.34) (xy 175.26 24.13)
 		)
 		(stroke
@@ -6150,7 +6160,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 66.04) (xy 160.02 69.85)
+			(xy 156.21 66.04) (xy 156.21 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6177,16 +6187,6 @@
 			(type default)
 		)
 		(uuid "3f281b7c-8527-4c4e-9c4a-978a9d2071e4")
-	)
-	(wire
-		(pts
-			(xy 151.13 69.85) (xy 160.02 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4055da48-b22a-4737-bb1e-a4e03d03aaad")
 	)
 	(wire
 		(pts
@@ -6250,7 +6250,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 69.85) (xy 167.64 69.85)
+			(xy 156.21 69.85) (xy 158.75 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6260,7 +6260,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 125.73) (xy 66.04 125.73)
+			(xy 66.04 129.54) (xy 72.39 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6430,7 +6430,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 125.73) (xy 39.37 125.73)
+			(xy 38.1 129.54) (xy 45.72 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6640,7 +6640,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 125.73) (xy 46.99 125.73)
+			(xy 58.42 129.54) (xy 53.34 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6820,7 +6820,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 57.15) (xy 118.11 57.15)
+			(xy 107.95 57.15) (xy 116.84 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6871,26 +6871,6 @@
 			)
 		)
 		(uuid "5fd3d0d3-9289-450c-825f-974ed253ba69")
-	)
-	(text "Very unsure here\n"
-		(exclude_from_sim no)
-		(at 157.226 99.314 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7f300916-a1e5-4d29-8d46-0588f2549518")
-	)
-	(text "Are these pull ups neccessary"
-		(exclude_from_sim no)
-		(at 235.712 49.276 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9ba78c4d-f71f-4879-a618-b1e1dcf3d4f3")
 	)
 	(label "JTAG_TDI"
 		(at 115.57 44.45 0)
@@ -6947,6 +6927,17 @@
 		)
 		(uuid "30997976-999a-4edf-b7d5-95581ea761c9")
 	)
+	(label "VCC0_0"
+		(at 252.73 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a3b5f92-e17d-4868-8ee5-6416e009cc35")
+	)
 	(label "JTAG_TDI"
 		(at 227.33 73.66 180)
 		(fields_autoplaced yes)
@@ -6991,19 +6982,8 @@
 		)
 		(uuid "a86cd0c0-0023-4f49-986d-c22f8d746e34")
 	)
-	(label "DONE"
-		(at 29.21 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a8a48064-f90b-44cf-9779-54353eed583b")
-	)
-	(label "DONE"
-		(at 167.64 69.85 0)
+	(label "VCC0_0"
+		(at 118.11 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7011,7 +6991,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c7a7c8db-58c7-49f3-b3cc-b94e9676073e")
+		(uuid "cb6883bf-5e1a-4129-9c2e-83ff43161caf")
 	)
 	(label "VCC0_0"
 		(at 167.64 92.71 0)
@@ -7023,6 +7003,28 @@
 			(justify left bottom)
 		)
 		(uuid "e2ad9da0-bae8-4e41-83c9-c608bd44e9a9")
+	)
+	(global_label "FPGA_DONE"
+		(shape output)
+		(at 158.75 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "019495e7-2704-4c6d-878f-b136f4089a54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "INIT"
 		(shape input)
@@ -7068,28 +7070,6 @@
 			)
 		)
 	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 118.11 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7d4624b3-7cad-483a-80e5-cb724e5ab052")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.78 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FPGA_LED2"
 		(shape input)
 		(at 38.1 154.94 180)
@@ -7103,6 +7083,28 @@
 		(uuid "7fa81816-544a-412f-afa1-c224719acda1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 24.7734 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FPGA_DONE"
+		(shape input)
+		(at 38.1 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81e8827a-93cb-4c84-8308-6a78f96f7ce1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.35 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7156,28 +7158,6 @@
 			)
 		)
 	)
-	(global_label "+3.3V"
-		(shape input)
-		(at 252.73 49.53 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "af8cfd95-5003-49af-995b-0aff474938b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.73 40.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FPGA_LED1"
 		(shape input)
 		(at 38.1 147.32 180)
@@ -7200,9 +7180,9 @@
 			)
 		)
 	)
-	(hierarchical_label "FPGA_CONFIG_CLOCK"
-		(shape input)
-		(at 118.11 57.15 0)
+	(global_label "FPGA_CONFIG_CLOCK"
+		(shape output)
+		(at 116.84 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7210,7 +7190,17 @@
 			)
 			(justify left)
 		)
-		(uuid "5517a6de-da64-4705-abaf-ac2abe4e600e")
+		(uuid "ee336bf4-4143-4885-bf8f-831638d3fc54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.5406 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "FPGA_RESET"
 		(shape input)
@@ -7503,7 +7493,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 43.18 125.73 90)
+		(at 49.53 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7512,7 +7502,7 @@
 		(fields_autoplaced yes)
 		(uuid "26b901b0-a92b-4ef9-83a2-291cb194b42d")
 		(property "Reference" "R22"
-			(at 43.18 119.38 90)
+			(at 49.53 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7520,7 +7510,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 43.18 121.92 90)
+			(at 49.53 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7528,7 +7518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 127.508 90)
+			(at 49.53 131.318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7537,7 +7527,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 125.73 0)
+			(at 49.53 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,7 +7536,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 43.18 125.73 0)
+			(at 49.53 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,7 +7694,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 55.88 125.73 180)
+		(at 62.23 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7713,7 +7703,7 @@
 		(fields_autoplaced yes)
 		(uuid "52602b16-cca4-4f2d-8387-988d9d039d80")
 		(property "Reference" "D2"
-			(at 57.4675 118.11 0)
+			(at 63.8175 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7721,7 +7711,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 57.4675 120.65 0)
+			(at 63.8175 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +7719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 125.73 0)
+			(at 62.23 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7738,7 +7728,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 125.73 0)
+			(at 62.23 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7747,7 +7737,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 55.88 125.73 0)
+			(at 62.23 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7839,7 +7829,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 125.73 90)
+		(at 72.39 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7848,7 +7838,7 @@
 		(fields_autoplaced yes)
 		(uuid "67cf2fd3-63e0-4645-896f-fd57eaba6a49")
 		(property "Reference" "#PWR031"
-			(at 72.39 125.73 0)
+			(at 78.74 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,7 +7847,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 125.7299 90)
+			(at 76.2 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7866,7 +7856,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 125.73 0)
+			(at 72.39 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7875,7 +7865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 125.73 0)
+			(at 72.39 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7884,7 +7874,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 125.73 0)
+			(at 72.39 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7930,7 +7920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MicroHard:MOLEX_87832-1420"
 			(at 270.51 71.12 0)
 			(effects
 				(font
@@ -9648,7 +9638,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 160.02 66.04 0)
+		(at 156.21 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9657,7 +9647,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef4971dd-f660-45ad-873a-62cef6377b13")
 		(property "Reference" "TP2"
-			(at 162.56 61.4679 0)
+			(at 158.75 61.4679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9666,7 +9656,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 162.56 64.0079 0)
+			(at 158.75 64.0079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,7 +9665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 66.04 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9684,7 +9674,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 66.04 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +9683,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 160.02 66.04 0)
+			(at 156.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
