@@ -2806,12 +2806,6 @@
 		(uuid "150b9312-125a-463f-864c-7dc57c7a1304")
 	)
 	(junction
-		(at 99.06 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "190984b4-ceb3-42cb-a1da-ca0e5fde179e")
-	)
-	(junction
 		(at 121.92 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3008,12 +3002,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a44620c5-ed64-45fa-aab9-2768de74c4c3")
-	)
-	(junction
-		(at 134.62 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a66a97e8-c4b6-4fef-af89-a521a8477fda")
 	)
 	(junction
 		(at 116.84 41.91)
@@ -3767,16 +3755,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 165.1) (xy 105.41 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51648a67-9f60-4af7-a9fc-4ee633d2bf46")
-	)
-	(wire
-		(pts
 			(xy 245.11 118.11) (xy 245.11 115.57)
 		)
 		(stroke
@@ -3844,6 +3822,16 @@
 			(type default)
 		)
 		(uuid "6343bbb9-699f-4336-aa87-cb2ef1bbe047")
+	)
+	(wire
+		(pts
+			(xy 92.71 165.1) (xy 104.14 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c8fba2-a139-430c-98fd-bdbec9e720b7")
 	)
 	(wire
 		(pts
@@ -4034,16 +4022,6 @@
 			(type default)
 		)
 		(uuid "7eeb75c1-d031-419f-8f26-66812dbfed84")
-	)
-	(wire
-		(pts
-			(xy 92.71 165.1) (xy 99.06 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f6ab906-9384-43b9-ba12-66ec77c880b5")
 	)
 	(wire
 		(pts
@@ -12109,6 +12087,17 @@
 		)
 		(uuid "e008e935-67da-44d2-bb44-666ff6e2378d")
 	)
+	(label "POWER_IN"
+		(at 46.99 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25ad4287-aba4-4f85-ae7b-350085de6172")
+	)
 	(label "EN1.8V"
 		(at 113.03 118.11 180)
 		(fields_autoplaced yes)
@@ -12131,6 +12120,28 @@
 		)
 		(uuid "b5275b93-321a-4203-b48c-86d63817792c")
 	)
+	(label "POWER_IN"
+		(at 104.14 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5ae9bcc-fa0a-4764-8f62-e02e71acc4d9")
+	)
+	(label "POWER_IN"
+		(at 46.99 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8c18ffa-2538-40ad-84ef-526c9ec1d15d")
+	)
 	(label "EN3.3V"
 		(at 158.75 118.11 0)
 		(fields_autoplaced yes)
@@ -12152,69 +12163,6 @@
 			(justify left bottom)
 		)
 		(uuid "fd91f99b-d083-4e61-8b30-45d75b3e52a3")
-	)
-	(hierarchical_label "POWER_IN"
-		(shape output)
-		(at 105.41 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4b09e25e-1157-4d3d-a590-ae823fbc15eb")
-		(property "untitled" "4.5V - 18V"
-			(at 108.458 167.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(hierarchical_label "POWER_IN"
-		(shape input)
-		(at 46.99 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "90e00517-43ff-41a3-8d78-5f5b3638b146")
-		(property "untitled" "4.5V - 18V"
-			(at 50.038 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(hierarchical_label "POWER_IN"
-		(shape input)
-		(at 46.99 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d5e1f5d2-1c69-416b-8d89-29be98132bba")
-		(property "untitled" "4.5V - 18V"
-			(at 50.038 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -12521,72 +12469,6 @@
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/f6ee64bd-5b5d-4329-b744-4c552611a962"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 99.06 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14d3e680-59c6-405a-8e94-fdff3cf426ff")
-		(property "Reference" "#FLG02"
-			(at 99.06 163.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 99.06 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 99.06 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c74b80dd-b97e-40df-9648-b4bfd19ec6fa")
-		)
-		(instances
-			(project "MicroHard"
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/f6ee64bd-5b5d-4329-b744-4c552611a962"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -13462,73 +13344,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 134.62 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b3f9341-f954-40f6-bb88-c6318f58e313")
-		(property "Reference" "#FLG03"
-			(at 132.715 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 130.81 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 134.62 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "503580c2-5e8c-4d2e-9b0f-ea6bad7be29e")
-		)
-		(instances
-			(project ""
-				(path "/578bd531-a491-4b15-a479-460d159ffc14/f6ee64bd-5b5d-4329-b744-4c552611a962"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 134.62 146.05 0)
 		(unit 1)
@@ -14055,7 +13870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TPS54294PWP:PWP16_2P31X2P46"
 			(at 118.11 113.03 0)
 			(effects
 				(font
@@ -17020,7 +16835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal"
 			(at 88.9 171.45 0)
 			(effects
 				(font
@@ -17395,7 +17210,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TPS54325PWP:PWP14_2P31X2P46"
 			(at 128.27 44.45 0)
 			(effects
 				(font
