@@ -7,4 +7,5 @@
   (lib (name "FTSH-110-01-F-DV-K")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/FTSH-110-01-F-DV-K/footprints.pretty")(options "")(descr "Debug header"))
   (lib (name "KMR221NG")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/KMR221NG/footprints.pretty")(options "")(descr "Button"))
   (lib (name "MAX6955")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/MAX6955AAX+ LED Driver/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "C_2917")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/C_2917/footprints.pretty")(options "")(descr ""))
 )

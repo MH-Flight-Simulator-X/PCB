@@ -6,4 +6,5 @@
   (lib (name "MAX6955")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/MAX6955AAX+ LED Driver/KiCADv6/2024-09-24_08-12-32.kicad_sym")(options "")(descr ""))
   (lib (name "Button")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/KMR221NG/2024-09-24_10-01-10.kicad_sym")(options "")(descr ""))
   (lib (name "LTP-587HR")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/LTP-587HR/2024-09-25_12-43-18.kicad_sym")(options "")(descr ""))
+  (lib (name "L77HDE15SD1CH4FVGA")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/L77HDE15SD1CH4FVGA/L77HDE15SD1CH4FVGA.kicad_sym")(options "")(descr ""))
 )
