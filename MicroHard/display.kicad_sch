@@ -4077,7 +4077,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 172.72) (xy 67.31 176.53)
+			(xy 67.31 172.72) (xy 67.31 173.99)
 		)
 		(stroke
 			(width 0)
@@ -14428,7 +14428,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 180.34 0)
+		(at 67.31 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14437,6 +14437,15 @@
 		(fields_autoplaced yes)
 		(uuid "08536d99-10d1-4716-a0fa-b6f5f3ae5281")
 		(property "Reference" "R27"
+			(at 69.85 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
 			(at 69.85 179.0699 0)
 			(effects
 				(font
@@ -14445,17 +14454,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "112k"
-			(at 69.85 181.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 65.532 180.34 90)
+			(at 65.532 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14464,7 +14464,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 180.34 0)
+			(at 67.31 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14473,7 +14473,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 180.34 0)
+			(at 67.31 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14482,7 +14482,7 @@
 			)
 		)
 		(property "Author" ""
-			(at 67.31 180.34 0)
+			(at 67.31 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14491,7 +14491,7 @@
 			)
 		)
 		(property "License" ""
-			(at 67.31 180.34 0)
+			(at 67.31 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14500,7 +14500,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 67.31 180.34 0)
+			(at 67.31 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14509,7 +14509,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 67.31 180.34 0)
+			(at 67.31 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14518,7 +14518,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 67.31 180.34 0)
+			(at 67.31 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14527,7 +14527,7 @@
 			)
 		)
 		(property "Val" ""
-			(at 67.31 180.34 0)
+			(at 67.31 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16197,6 +16197,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 67.31 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd995b9b-3559-4ae5-a0cc-2d6421654011")
+		(property "Reference" "R74"
+			(at 69.85 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12k"
+			(at 69.85 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 65.532 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 67.31 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Author" ""
+			(at 67.31 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "License" ""
+			(at 67.31 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 67.31 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 67.31 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 67.31 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Val" ""
+			(at 67.31 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd282e61-3687-450e-aba0-32fde44c4d21")
+		)
+		(pin "2"
+			(uuid "55795fbc-3be1-455d-93cb-9603772b0c76")
+		)
+		(instances
+			(project "MicroHard"
+				(path "/578bd531-a491-4b15-a479-460d159ffc14/da2ad706-b813-4c6c-baa2-e38e56e98281"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MAX6955:MAX6955AAX+")
 		(at 69.85 95.25 0)
 		(unit 2)
@@ -16558,7 +16682,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 184.15 0)
+		(at 67.31 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16567,7 +16691,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff3c237b-4a01-4575-a455-d8d03704137d")
 		(property "Reference" "#PWR048"
-			(at 67.31 190.5 0)
+			(at 67.31 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16576,7 +16700,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 189.23 0)
+			(at 67.31 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16584,7 +16708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 184.15 0)
+			(at 67.31 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16593,7 +16717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 184.15 0)
+			(at 67.31 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16602,7 +16726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 184.15 0)
+			(at 67.31 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
