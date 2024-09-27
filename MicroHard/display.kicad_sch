@@ -15796,7 +15796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a14c6c0-1f8f-4e92-83fe-7b291ce45a32")
-		(property "Reference" "LED5"
+		(property "Reference" "LED4"
 			(at 248.92 19.05 0)
 			(effects
 				(font
@@ -15952,7 +15952,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/da2ad706-b813-4c6c-baa2-e38e56e98281"
-					(reference "LED5")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -15968,7 +15968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d912f77-b768-4b56-a782-85647d58434a")
-		(property "Reference" "LED4"
+		(property "Reference" "LED5"
 			(at 181.61 78.74 0)
 			(effects
 				(font
@@ -16124,7 +16124,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/da2ad706-b813-4c6c-baa2-e38e56e98281"
-					(reference "LED4")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -16500,7 +16500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f10264fd-74f9-412b-9366-c12106f61f97")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 119.38 189.23 0)
 			(effects
 				(font
@@ -16550,7 +16550,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/da2ad706-b813-4c6c-baa2-e38e56e98281"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -16566,7 +16566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff3c237b-4a01-4575-a455-d8d03704137d")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 67.31 190.5 0)
 			(effects
 				(font
@@ -16616,7 +16616,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/da2ad706-b813-4c6c-baa2-e38e56e98281"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)

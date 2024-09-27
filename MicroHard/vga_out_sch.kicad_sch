@@ -11591,7 +11591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "065e82b0-1ab9-47e7-8ea1-0d096a71375d")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 19.05 25.4 0)
 			(effects
 				(font
@@ -11642,7 +11642,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -11658,7 +11658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06917d41-55c7-48d5-b6c8-b4c21eabda96")
-		(property "Reference" "R57"
+		(property "Reference" "R56"
 			(at 201.93 99.0599 0)
 			(effects
 				(font
@@ -11766,7 +11766,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R57")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -11782,7 +11782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08ee2432-4b00-4202-b413-3b550dbba656")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR053"
 			(at 283.21 81.28 0)
 			(effects
 				(font
@@ -11832,7 +11832,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "#PWR071")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -11848,7 +11848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b3bddf9-1452-4dfe-bbac-0657828fac79")
-		(property "Reference" "R32"
+		(property "Reference" "R29"
 			(at 43.18 33.0199 0)
 			(effects
 				(font
@@ -11956,7 +11956,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R32")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -11973,7 +11973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "121814b5-1aca-47c5-b293-2036d64a51bb")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR065"
 			(at 20.32 157.48 0)
 			(effects
 				(font
@@ -12024,7 +12024,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "#PWR052")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -12040,7 +12040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "215b987c-931d-4e16-9795-a8824cd3e9c2")
-		(property "Reference" "R46"
+		(property "Reference" "R33"
 			(at 170.18 63.4999 0)
 			(effects
 				(font
@@ -12148,7 +12148,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R46")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -12164,7 +12164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2310a176-0452-45e7-a378-0847ca45a420")
-		(property "Reference" "R33"
+		(property "Reference" "R37"
 			(at 43.18 69.8499 0)
 			(effects
 				(font
@@ -12272,7 +12272,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R33")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -12288,7 +12288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25a34acf-5644-406b-a043-76b7b4fa4ea8")
-		(property "Reference" "R34"
+		(property "Reference" "R62"
 			(at 44.45 110.4899 0)
 			(effects
 				(font
@@ -12396,7 +12396,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R34")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -12412,7 +12412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "265639c3-6c4e-4afd-8c17-ba1d0fa276ea")
-		(property "Reference" "R62"
+		(property "Reference" "R47"
 			(at 231.14 82.5499 0)
 			(effects
 				(font
@@ -12520,7 +12520,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R62")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -12535,7 +12535,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29dd68e8-f03b-413b-bea6-56514b25a0d7")
-		(property "Reference" "R44"
+		(property "Reference" "R42"
 			(at 157.48 75.438 90)
 			(effects
 				(font
@@ -12641,7 +12641,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R44")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -12656,7 +12656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d181211-b8a6-4e7d-8b18-f62918a3f31a")
-		(property "Reference" "R43"
+		(property "Reference" "R34"
 			(at 157.48 66.548 90)
 			(effects
 				(font
@@ -12762,7 +12762,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R43")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -12778,7 +12778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "322fe97a-ac7c-4896-97a5-630480f524f3")
-		(property "Reference" "R63"
+		(property "Reference" "R53"
 			(at 231.14 91.4399 0)
 			(effects
 				(font
@@ -12886,7 +12886,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R63")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -12902,7 +12902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37594c77-0985-4e31-b930-1543f6ea62c8")
-		(property "Reference" "R30"
+		(property "Reference" "R61"
 			(at 34.29 110.4899 0)
 			(effects
 				(font
@@ -13010,7 +13010,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R30")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -13026,7 +13026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ba570e0-eba4-46c8-ba74-ac7aa01af801")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR049"
 			(at 88.9 24.13 0)
 			(effects
 				(font
@@ -13077,7 +13077,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "#PWR056")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -13093,7 +13093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bc4d348-d835-471c-ba83-fc5e371b57c4")
-		(property "Reference" "C81"
+		(property "Reference" "C79"
 			(at 269.24 107.9499 0)
 			(effects
 				(font
@@ -13147,7 +13147,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "C81")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -13163,7 +13163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d4b1170-3dd8-48e6-9e31-02e06050eea8")
-		(property "Reference" "R38"
+		(property "Reference" "R63"
 			(at 54.61 110.4899 0)
 			(effects
 				(font
@@ -13271,7 +13271,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R38")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -13287,7 +13287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4922986c-f284-4a05-a74e-bd60fa9c0f77")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR064"
 			(at 72.39 157.48 0)
 			(effects
 				(font
@@ -13337,7 +13337,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "#PWR055")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -13353,7 +13353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "518852cf-6748-4db5-b69e-c6db071809b0")
-		(property "Reference" "R41"
+		(property "Reference" "R64"
 			(at 64.77 110.4899 0)
 			(effects
 				(font
@@ -13461,7 +13461,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R41")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -13477,7 +13477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52306d19-bef0-4288-9005-6a1529b9904c")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR059"
 			(at 199.39 113.03 0)
 			(effects
 				(font
@@ -13527,7 +13527,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "#PWR061")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -13542,7 +13542,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "564cc2d4-8c6c-48ae-a54d-cf5975541387")
-		(property "Reference" "R59"
+		(property "Reference" "R50"
 			(at 218.44 85.598 90)
 			(effects
 				(font
@@ -13648,7 +13648,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R59")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -13664,7 +13664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "599d7c46-36cd-4851-ae4e-2249039a2967")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 228.6 123.19 0)
 			(effects
 				(font
@@ -13714,7 +13714,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -13729,7 +13729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cff9d3f-2ae5-41d9-870f-aee8bc4052b9")
-		(property "Reference" "R45"
+		(property "Reference" "R48"
 			(at 157.48 84.074 90)
 			(effects
 				(font
@@ -13835,7 +13835,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R45")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -13851,7 +13851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d19a286-b33d-4582-b600-47bd73fe6dc2")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR062"
 			(at 255.27 134.62 0)
 			(effects
 				(font
@@ -13901,7 +13901,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "#PWR070")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -13916,7 +13916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67ddb9c1-e622-4356-8c00-dd944b953096")
-		(property "Reference" "R53"
+		(property "Reference" "R54"
 			(at 189.23 92.964 90)
 			(effects
 				(font
@@ -14022,7 +14022,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R53")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -14037,7 +14037,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cfe66d0-c523-4cd2-9266-eb037060d0e4")
-		(property "Reference" "R66"
+		(property "Reference" "R65"
 			(at 241.046 124.46 0)
 			(effects
 				(font
@@ -14145,7 +14145,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R66")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -14161,7 +14161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e04ad3e-5106-4a46-a9ad-08a117abdd1d")
-		(property "Reference" "R48"
+		(property "Reference" "R45"
 			(at 170.18 81.2799 0)
 			(effects
 				(font
@@ -14269,7 +14269,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R48")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -14462,7 +14462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "762abc88-6cd8-4e5e-ab4c-7f1fb8120dff")
-		(property "Reference" "R52"
+		(property "Reference" "R49"
 			(at 189.23 84.328 90)
 			(effects
 				(font
@@ -14568,7 +14568,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R52")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -14583,7 +14583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78b34908-db5b-409f-933c-044dcdcb0dd8")
-		(property "Reference" "R51"
+		(property "Reference" "R43"
 			(at 189.23 75.438 90)
 			(effects
 				(font
@@ -14689,7 +14689,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R51")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -14705,7 +14705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ad25b50-2273-4be1-b4a5-21bf6af52b75")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 130.81 109.22 0)
 			(effects
 				(font
@@ -14755,7 +14755,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -14771,7 +14771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b29774b-21b1-41b9-a32c-110e3fca87d3")
-		(property "Reference" "R29"
+		(property "Reference" "R36"
 			(at 33.02 69.8499 0)
 			(effects
 				(font
@@ -14879,7 +14879,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R29")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -15195,7 +15195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85ccfb32-8b7f-42ce-9fa4-7bf26e9b9432")
-		(property "Reference" "C77"
+		(property "Reference" "C76"
 			(at 115.57 19.05 0)
 			(effects
 				(font
@@ -15303,7 +15303,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "C77")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -15319,7 +15319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "891c5ea7-26ab-42c2-bbb4-96aea712eab3")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR055"
 			(at 19.05 81.28 0)
 			(effects
 				(font
@@ -15370,7 +15370,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "#PWR050")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -15385,7 +15385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89fa9767-e939-4cf3-91c0-fc145bac5587")
-		(property "Reference" "C76"
+		(property "Reference" "C77"
 			(at 106.68 96.52 0)
 			(effects
 				(font
@@ -15493,7 +15493,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "C76")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -15509,7 +15509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9469ecd1-2f35-41e1-91eb-8862f5bbb787")
-		(property "Reference" "R39"
+		(property "Reference" "R31"
 			(at 63.5 33.0199 0)
 			(effects
 				(font
@@ -15617,7 +15617,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R39")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -15633,7 +15633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ef83bc2-852d-4c4b-88a3-53d9adf0b740")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR058"
 			(at 20.32 102.87 0)
 			(effects
 				(font
@@ -15684,7 +15684,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "#PWR051")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -15700,7 +15700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a338df6c-f6eb-439b-aeff-a5bc9cd61207")
-		(property "Reference" "R56"
+		(property "Reference" "R52"
 			(at 201.93 90.1699 0)
 			(effects
 				(font
@@ -15808,7 +15808,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R56")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -15823,7 +15823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a45376b6-846b-4d24-b769-3b44e6aee3da")
-		(property "Reference" "R73"
+		(property "Reference" "R59"
 			(at 256.794 108.204 0)
 			(effects
 				(font
@@ -15877,7 +15877,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R73")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -15893,7 +15893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6d86ead-4be5-4b11-ab6f-39a019491fb7")
-		(property "Reference" "R49"
+		(property "Reference" "R51"
 			(at 170.18 90.1699 0)
 			(effects
 				(font
@@ -16001,7 +16001,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R49")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -16017,7 +16017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a798bc4e-bd1c-4780-8b69-92eda76b2a66")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR056"
 			(at 167.64 104.14 0)
 			(effects
 				(font
@@ -16067,7 +16067,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "#PWR060")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -16083,7 +16083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad597e51-ed11-40ae-902c-bd4efdd651f9")
-		(property "Reference" "R54"
+		(property "Reference" "R41"
 			(at 201.93 72.3899 0)
 			(effects
 				(font
@@ -16191,7 +16191,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R54")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -16206,7 +16206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b46e2b76-86df-48b4-96c1-5f32ddfd445d")
-		(property "Reference" "R67"
+		(property "Reference" "R66"
 			(at 248.92 124.46 0)
 			(effects
 				(font
@@ -16314,7 +16314,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R67")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -16329,7 +16329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b75841f6-8fba-4fd0-94fe-1036fbf0549f")
-		(property "Reference" "R61"
+		(property "Reference" "R58"
 			(at 218.44 103.124 90)
 			(effects
 				(font
@@ -16435,7 +16435,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R61")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -16450,7 +16450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bffe2393-e2a0-4390-be6f-46d0b830708a")
-		(property "Reference" "R42"
+		(property "Reference" "R32"
 			(at 157.48 57.658 90)
 			(effects
 				(font
@@ -16556,7 +16556,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R42")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -16572,7 +16572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5450a73-1250-41ff-bf5d-c816839986a3")
-		(property "Reference" "R36"
+		(property "Reference" "R30"
 			(at 53.34 33.0199 0)
 			(effects
 				(font
@@ -16680,7 +16680,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R36")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -16696,7 +16696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5ec850a-e24e-4138-8719-b302409650a8")
-		(property "Reference" "R55"
+		(property "Reference" "R46"
 			(at 201.93 81.2799 0)
 			(effects
 				(font
@@ -16804,7 +16804,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R55")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -16820,7 +16820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd4d17d0-117f-463c-9c54-7ed67bfbc086")
-		(property "Reference" "R40"
+		(property "Reference" "R39"
 			(at 63.5 69.8499 0)
 			(effects
 				(font
@@ -16928,7 +16928,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R40")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -17009,7 +17009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf97b22d-f393-44d1-b09d-51986f1f25d0")
-		(property "Reference" "R50"
+		(property "Reference" "R35"
 			(at 189.23 66.548 90)
 			(effects
 				(font
@@ -17115,7 +17115,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R50")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -17131,7 +17131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0346756-5cbc-4354-ba9d-d5dddc0e3e89")
-		(property "Reference" "R64"
+		(property "Reference" "R57"
 			(at 231.14 100.3299 0)
 			(effects
 				(font
@@ -17239,7 +17239,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R64")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -17255,7 +17255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d082746a-95b8-44de-8e30-7ebcd9ff69eb")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR063"
 			(at 59.69 133.35 0)
 			(effects
 				(font
@@ -17306,7 +17306,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "#PWR053")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -17321,7 +17321,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d156e10d-7a76-4d1c-b0c9-c27339f33935")
-		(property "Reference" "R60"
+		(property "Reference" "R55"
 			(at 218.44 94.488 90)
 			(effects
 				(font
@@ -17427,7 +17427,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R60")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -17443,7 +17443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d248af47-4ffc-4785-8534-249dc296b342")
-		(property "Reference" "R37"
+		(property "Reference" "R38"
 			(at 53.34 69.8499 0)
 			(effects
 				(font
@@ -17551,7 +17551,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R37")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -17566,7 +17566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6716024-4f5d-4a43-851a-cd4d72130cb7")
-		(property "Reference" "R58"
+		(property "Reference" "R44"
 			(at 218.44 76.708 90)
 			(effects
 				(font
@@ -17672,7 +17672,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R58")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -17688,7 +17688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e46adf9c-30a6-4231-89f9-fa58ed7f960c")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR051"
 			(at 129.54 31.75 0)
 			(effects
 				(font
@@ -17738,7 +17738,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "#PWR058")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -17754,7 +17754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e72910ab-e1c1-437c-960f-ee42d625e1fd")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR052"
 			(at 242.57 69.85 0)
 			(effects
 				(font
@@ -17805,7 +17805,7 @@
 		(instances
 			(project ""
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "#PWR063")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -17946,7 +17946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7f78cdf-03a1-49a1-acc4-5fafa91d89b7")
-		(property "Reference" "R35"
+		(property "Reference" "R68"
 			(at 44.45 149.8601 0)
 			(effects
 				(font
@@ -18054,7 +18054,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R35")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -18224,7 +18224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe400bb9-dfe3-49d0-8d3e-b85ab2f8cbd1")
-		(property "Reference" "R65"
+		(property "Reference" "R60"
 			(at 231.14 109.2199 0)
 			(effects
 				(font
@@ -18332,7 +18332,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R65")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -18349,7 +18349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffcd75e3-78d9-4eda-a90d-ede9dd03aa60")
-		(property "Reference" "R31"
+		(property "Reference" "R67"
 			(at 34.29 149.8601 0)
 			(effects
 				(font
@@ -18457,7 +18457,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R31")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -18473,7 +18473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffdd1432-aa43-42ff-9427-5eb12fc58dc0")
-		(property "Reference" "R47"
+		(property "Reference" "R40"
 			(at 170.18 72.3899 0)
 			(effects
 				(font
@@ -18581,7 +18581,7 @@
 		(instances
 			(project "MicroHard"
 				(path "/578bd531-a491-4b15-a479-460d159ffc14/ddea3422-51f0-4fe7-a47b-97f41b1121b1"
-					(reference "R47")
+					(reference "R40")
 					(unit 1)
 				)
 			)
