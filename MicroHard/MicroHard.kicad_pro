@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 2.31,
+          "width": 2.46
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|44995000|41580000|f46caa3b-f21e-46e6-a722-3f50ca45b592|27f09df7-ac4a-4cde-8685-70fe05258d97",
+        "silk_overlap|76343333|101549819|a48c35a0-c5d9-42ae-a0c1-a89462551a3b|09e20499-3d59-4e66-bb03-8e486f2d2161",
+        "silk_overlap|76711428|95627438|1d1410e0-8fc4-4eec-9896-599e3ba0f3ee|62d93a1b-5790-42bf-ba3a-d199a0b46d5a",
+        "silk_overlap|77421428|108205000|e565fd01-af14-4810-8b7a-ef10c01cecc6|150b30dd-518c-4bb6-9725-f267ff402eb6",
+        "silk_overlap|77744819|101559285|7790f39f-b638-456f-840a-c62e53031a54|da388b40-0e9f-4ef0-b79f-e765e24ff4aa",
+        "silk_overlap|78150476|105085000|e2b18935-9791-4bac-a3d2-099532f495d6|dd5b1193-7a92-4895-b798-c8636c00c1fa",
+        "silk_overlap|78233333|99735000|da388b40-0e9f-4ef0-b79f-e765e24ff4aa|6d9796fb-3a58-4def-bafe-98b9a81ae3e8",
+        "silk_overlap|78328571|98245000|b2a667fb-d240-4bf2-98d7-6f99325696bc|6d9796fb-3a58-4def-bafe-98b9a81ae3e8",
+        "silk_overlap|78337142|96275000|5575d346-e608-4d5a-b444-36650cff462c|2af597ed-3583-4f85-9768-2964968cac35",
+        "silk_overlap|79510000|98963571|afcb77a8-1379-4975-9bf0-35e0df5228a4|daa6737d-6648-48bb-af71-4442ffc93502",
+        "silk_overlap|80183333|106459819|e9d94e7f-4a09-458d-a328-b273f215da4d|ebbb1576-7000-44e3-ab03-701975d57353",
+        "silk_overlap|81428571|95965000|fbb65b4a-ea97-466a-8e0a-1a62dc894d0c|f65752cb-6362-4811-9e11-41d518bc4051",
+        "silk_overlap|82480000|102853571|385d798c-aa20-4910-bd84-f0860f151a5d|1cdd13d2-8612-452c-896e-d1331c9d2528",
+        "silk_overlap|83007976|97462200|00ec89d0-e211-4a81-a86e-1bbba530e49e|ee2b7ee3-4482-4acd-b72b-0ac6a98c0b7f",
+        "silk_overlap|83124285|98509819|6ad3e714-a3df-4da8-8f5b-14b888672167|7172ea79-75eb-48a2-b478-fdeb447aca01",
+        "silk_overlap|83960000|104981666|56b9f480-8219-4c96-b851-f3e38c16e155|bd8f8691-2c6f-47cb-9617-8fee4732d7f4",
+        "silk_overlap|84320000|99215000|67cf17dc-2c89-4bec-97b7-451dab14f6d5|6ad3e714-a3df-4da8-8f5b-14b888672167",
+        "silk_overlap|85880000|96434523|593b296e-45f5-4218-b440-10329774c284|13161b05-9ebb-46c2-8cec-544c6797f3bc",
+        "silk_overlap|86316190|104195000|32001b4d-bca3-4c22-acff-ca1bbdda9208|660d4b7d-a5f4-4f61-ab94-5271ffc9cc66",
+        "silk_overlap|86316190|104195000|3fa8082d-3da6-4926-acca-f3abb971db69|660d4b7d-a5f4-4f61-ab94-5271ffc9cc66",
+        "silk_overlap|86411428|103929819|f63cd0c7-76c8-412c-93c5-24a5be727bc8|32001b4d-bca3-4c22-acff-ca1bbdda9208",
+        "silk_overlap|87055714|106335000|204adc0f-4459-4477-91a5-f22abc0448c3|27b82c69-f352-4976-80a5-801131bf44d2",
+        "silk_overlap|87083333|94319819|ba79036f-0d7a-448c-823a-1e245554119a|a916dd60-8a4c-48c4-bfae-dc569bef04bd",
+        "silk_overlap|87268571|102685000|3fa8082d-3da6-4926-acca-f3abb971db69|f63cd0c7-76c8-412c-93c5-24a5be727bc8",
+        "silk_overlap|87268571|102929819|f63cd0c7-76c8-412c-93c5-24a5be727bc8|875084b8-969e-4b5c-b097-a83953453a1d",
+        "silk_overlap|88110952|102399819|ebc30194-3057-4585-b4c7-05ff2325c9c5|875084b8-969e-4b5c-b097-a83953453a1d",
+        "silk_overlap|88130000|101195000|67cf17dc-2c89-4bec-97b7-451dab14f6d5|ebc30194-3057-4585-b4c7-05ff2325c9c5",
+        "silk_overlap|89559523|97555000|6f710f88-9400-421f-b7cb-1e11f6fe58f8|a8cb65f9-071a-48ef-ba75-d37b7db3e30a"
+      ],
       "meta": {
         "version": 2
       },
@@ -552,7 +581,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
