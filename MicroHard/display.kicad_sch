@@ -11887,7 +11887,7 @@
 			)
 		)
 	)
-	(global_label "DD_O6"
+	(global_label "DD_O5"
 		(shape input)
 		(at 270.51 107.95 0)
 		(fields_autoplaced yes)
