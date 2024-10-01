@@ -9,4 +9,5 @@
   (lib (name "MAX6955")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/MAX6955AAX+ LED Driver/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "TPS54294PWP")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/TPS54294PWP/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "TPS54325PWP")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/TPS54325PWP/footprints.pretty")(options "")(descr ""))
+  (lib (name "74438357022 Wuerth Inductor")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/74438357022 Wuerth Inductor/footprints.pretty")(options "")(descr "Wuerth 1616 inductor"))
 )

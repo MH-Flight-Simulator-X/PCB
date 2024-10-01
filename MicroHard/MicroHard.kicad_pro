@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.31,
-          "width": 2.46
+          "drill": 0.254,
+          "height": 0.508,
+          "width": 0.508
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -59,7 +59,11 @@
         }
       ],
       "drc_exclusions": [
+        "lib_footprint_mismatch|56605000|111275000|0add5d41-b29e-4051-892a-242064730e24|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|36460000|110480000|f46caa3b-f21e-46e6-a722-3f50ca45b592|8de8a1bc-182e-47af-bc22-8012c4b5cbb8",
+        "silk_edge_clearance|36460000|118000000|f46caa3b-f21e-46e6-a722-3f50ca45b592|05b3384e-b3bd-4f77-a3d4-0421f4cb8891",
         "silk_edge_clearance|44995000|41580000|f46caa3b-f21e-46e6-a722-3f50ca45b592|27f09df7-ac4a-4cde-8685-70fe05258d97",
+        "silk_edge_clearance|75835000|41580000|f46caa3b-f21e-46e6-a722-3f50ca45b592|c7ec410b-f369-4df1-84d6-206d2c6c1b14",
         "silk_overlap|76343333|101549819|a48c35a0-c5d9-42ae-a0c1-a89462551a3b|09e20499-3d59-4e66-bb03-8e486f2d2161",
         "silk_overlap|76711428|95627438|1d1410e0-8fc4-4eec-9896-599e3ba0f3ee|62d93a1b-5790-42bf-ba3a-d199a0b46d5a",
         "silk_overlap|77421428|108205000|e565fd01-af14-4810-8b7a-ef10c01cecc6|150b30dd-518c-4bb6-9725-f267ff402eb6",
@@ -86,7 +90,9 @@
         "silk_overlap|87268571|102929819|f63cd0c7-76c8-412c-93c5-24a5be727bc8|875084b8-969e-4b5c-b097-a83953453a1d",
         "silk_overlap|88110952|102399819|ebc30194-3057-4585-b4c7-05ff2325c9c5|875084b8-969e-4b5c-b097-a83953453a1d",
         "silk_overlap|88130000|101195000|67cf17dc-2c89-4bec-97b7-451dab14f6d5|ebc30194-3057-4585-b4c7-05ff2325c9c5",
-        "silk_overlap|89559523|97555000|6f710f88-9400-421f-b7cb-1e11f6fe58f8|a8cb65f9-071a-48ef-ba75-d37b7db3e30a"
+        "silk_overlap|89559523|97555000|6f710f88-9400-421f-b7cb-1e11f6fe58f8|a8cb65f9-071a-48ef-ba75-d37b7db3e30a",
+        "starved_thermal|44605000|109687500|652c414d-1cc9-44f2-ba6f-7a19fd49bf01|c6c8b61c-b428-497c-a53c-a298ddd9ea11|F.Cu",
+        "starved_thermal|58736299|138145900|79b42590-2236-4a5f-bb3e-04abbe7919d7|f56aadab-f9fe-41fb-aede-1bc2861f53f3|F.Cu"
       ],
       "meta": {
         "version": 2
