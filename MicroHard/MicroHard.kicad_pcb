@@ -6907,6 +6907,18 @@
 				)
 			)
 		)
+		(property "Text" "FPGA GPIO"
+			(at -0.03 -2.89 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2d8ec615-9612-4569-80b4-e106c98acc15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e381883e-e672-4900-88a5-08b94f970a88/1131f32d-45e2-48d4-a5b0-b9e8f8db47f2/bdaa1f93-8de9-4663-9661-83195b17d185")
 		(sheetname "Unit A")
@@ -10125,6 +10137,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1ed8784b-3912-4889-b6b1-899253a1acdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Text" "MCU GPIO"
+			(at -2.66 8.345 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c5c56efb-8f10-4ad2-9f86-2163d140b2be")
 			(effects
 				(font
 					(size 1 1)
@@ -26989,7 +27013,7 @@
 		(uuid "91cb846d-2788-4252-8193-d9c4ec7b7d33")
 		(at 101.125 129 -90)
 		(property "Reference" "J7"
-			(at -9.54 -0.215 180)
+			(at -9.54 -0.215 360)
 			(layer "F.SilkS")
 			(uuid "8550524c-b77d-45f7-b7fa-685b2bebddf0")
 			(effects
@@ -27117,6 +27141,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1b2ab323-4455-4976-9d8b-66b28452d285")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Text" "FPGA Debug"
+			(at 9.49 -0.075 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "12ea352a-b9a4-4b8b-9f33-8e7c994efa9a")
 			(effects
 				(font
 					(size 1 1)
@@ -34202,6 +34238,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a2fb121c-dd84-4b32-8cf3-0f5a9b54da55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Text" "Controller"
+			(at -2.4 8.405 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "182206a4-d5dc-448a-935a-61aaaf262714")
 			(effects
 				(font
 					(size 1 1)
@@ -55442,6 +55490,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed285ce1-f979-41e2-9641-ff0c8b77f20c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Text" "MCU Debug"
+			(at 7.18 12.4 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3505e53c-73f8-413c-b1e4-f0f2b3bee175")
 			(effects
 				(font
 					(size 1 1)
