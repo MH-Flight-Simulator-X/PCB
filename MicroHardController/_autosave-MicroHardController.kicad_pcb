@@ -934,7 +934,7 @@
 	(footprint "MicroHard:TRIM_PS100-1B1BR10K"
 		(layer "F.Cu")
 		(uuid "a1aaca83-ddd7-4561-b1ad-278493d81820")
-		(at 63.9 72 90)
+		(at 63.9 71.87 90)
 		(property "Reference" "VR1"
 			(at -60.505 -6.17 90)
 			(layer "F.SilkS")
