@@ -4,7 +4,7 @@ show_pcb = false;
 // Lid mounting method
 lid_model = "cap"; // [cap, inner-fit]
 // Conditional rendering
-render = "all"; // [all, case, lid]
+render = "case"; // [all, case, lid]
 
 /* [Dimensions] */
 // Height of the PCB mounting stand-offs between the bottom of the case and the PCB
@@ -12,9 +12,9 @@ standoff_height = 5;
 // PCB thickness
 pcb_thickness = 1.6;
 // Bottom layer thickness
-floor_height = 2;
+floor_height = 4;
 // Case wall thickness
-wall_thickness = 1.2;
+wall_thickness = 4;
 // Space between the top of the PCB and the top of the case
 headroom = 45;
 
@@ -29,10 +29,10 @@ module centered_hole_diameter(center_x, center_y, diameter)
     translate([ coords[0], coords[1], -0.5 ]) cylinder(h = floor_height + 1, d = diameter, center = false);
 }
 
-module centered_hole_radius(center_x, center_y, radius)
+module centered_hole_radius(center_x, center_y, center_z, radius)
 { // These holes are in the kicad coord system
     coords = [ center_x, center_y ];
-    translate([ coords[0], coords[1], -0.5 ]) cylinder(h = floor_height + 1, r = radius, center = false);
+    translate([ coords[0], coords[1], center_z ]) cylinder(h = (floor_height + 1) * 2, r = radius, center = false);
 }
 
 module wall(thickness, height)
@@ -79,29 +79,67 @@ module joystick()
     centered_hole_diameter(center_x = 123.66, center_y = 130.15, diameter = 1.5);
 }
 
-module slider()
+module slider(recess_depth, recess_width, recess_length, recess_x, recess_y, reccess_w_l_offset)
 {
-    centered_hole_radius(center_x = 62.025, center_y = 135.62, radius = 0.8);
-    centered_hole_radius(center_x = 65.775, center_y = 135.62, radius = 0.8);
 
-    // Pins
-    centered_hole_radius(center_x = 63.9, center_y = 113.97, radius = 1);
-    centered_hole_radius(center_x = 63.9, center_y = 31.77, radius = 1);
+    translate([ recess_x, recess_y, 0 ])
+    {
+        difference()
+        {
+            difference()
+            {
+                // Outer shell of recess
+                translate([ 0, 0, -recess_depth ])
+                    cube([ recess_width + 2 * wall_thickness, recess_length + 2 * wall_thickness, recess_depth ]);
+                    // Inner cavity of recess
+                    translate([ wall_thickness, wall_thickness, -recess_depth + wall_thickness ])
+                        cube([ recess_width, recess_length, recess_depth + 1 ]);
+            }
 
-    // Top hole
-    centered_hole_radius(center_x = 62.025, center_y = 8.12, radius = 0.8);
+            // Inner hole coords 
+            data_pin_x = (recess_width - 3.75) / 2 + wall_thickness;
+            data_pin_y_top = wall_thickness + reccess_w_l_offset/2;
+
+            recess_center_y = wall_thickness + reccess_w_l_offset/2 + 127.5 / 2;
+
+            centered_hole_radius(center_x = data_pin_x, center_y = data_pin_y_top , center_z = -(recess_depth + 1) , radius = 0.8);
+
+            // Pins
+            centered_hole_radius(center_x = data_pin_x, center_y = data_pin_y_top + 127.5 , center_z = -(recess_depth + 1) , radius = 0.8);
+            centered_hole_radius(center_x = data_pin_x + 3.75, center_y = data_pin_y_top + 127.5 , center_z = -(recess_depth + 1) , radius = 0.8);
+
+            // Bottom Hole
+            centered_hole_radius(center_x = recess_width/2 + wall_thickness, center_y = recess_center_y + 42.1, center_z = -(recess_depth + 1), radius = 1);
+
+            // Top hole
+            centered_hole_radius(center_x = recess_width/2 + wall_thickness, center_y = recess_center_y - 40.1, center_z = -(recess_depth + 1), radius = 1);
+
+        }
+        
+    }
 }
 
 module lid(thickness, height, edge)
 {
+    reccess_w_l_offset = 4;     // Offset of the recess with 4 because of 3d printer limitations
+    recess_depth = 8;            // How far the recess protrudes down
+    recess_width = 8.4 + reccess_w_l_offset;
+    recess_length = 128 + reccess_w_l_offset; 
+    recess_x = 5;               // X position of the recess
+    recess_y = 0;               // Y position of the recess
+
+
     difference()
     {
         union()
         {
+            // Main lid body
             linear_extrude(height, convexity = 10)
             {
                 offset(r = thickness) children();
             }
+
+            // Edge lip
             translate([ 0, 0, -edge ]) difference()
             {
                 linear_extrude(edge, convexity = 10)
@@ -113,25 +151,26 @@ module lid(thickness, height, edge)
                     offset(r = -1.2) children();
                 }
             }
+
+            // Add the slider in the recess
+            slider(recess_depth, recess_width, recess_length, recess_x, recess_y, reccess_w_l_offset);
         }
 
+        // Extrude inner cavity from rest of lid
+        translate([ recess_x, recess_y, 0 ])
+            translate([ wall_thickness, wall_thickness, -recess_depth + wall_thickness ])
+                cube([ recess_width, recess_length, recess_depth + 1 + wall_thickness ]);
+
         // === Logo ===
-        translate([ 106, 22, height - 1 ]) linear_extrude(1.1)
+        translate([ 80, 22, height - 2 ]) linear_extrude(2.1)
         {
-            offset(r = 0.1) scale([ 0.07, -0.07, 1 ]) import("case-logo.svg", center = true);
+            offset(r = 0.1) scale([ 0.12, -0.12, 1 ]) import("case-logo.svg", center = true);
         }
 
         // === Buttons ===
-        centered_hole_diameter(23, 119, 33.3);
-
-        // === Slider ===
-        // Bottom holes
-
-      
-        slider();
+        translate([ 55, 119, height - 5 ]) cylinder(r = 33.3 / 2, h = 10, $fn = 6);
 
         // === Joystick ===
-        // Top data holes
         translate([ 0, 0, 0 ]) joystick();
     }
 }
@@ -207,7 +246,7 @@ rotate([ render == "lid" ? 180 : 0, 0, 0 ]) scale([ 1, -1, 1 ]) translate([ -67.
         // Add square hole in wall at y=0
         // Accounting for the translation and scaling
         scale([ 1, -1, 1 ])                          // Match the case's scaling
-            translate([ 68.74 - 8, 0, 30 ])         // Position relative to the case
+            translate([ 68.74 - 8, 0, 30 ])          // Position relative to the case
             cube([ 16, wall_thickness * 2 + 1, 3 ]); // Make hole slightly wider than wall
     }
 
