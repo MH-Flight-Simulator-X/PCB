@@ -3,7 +3,7 @@
   (lib (name "EFM32GG842F1024")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/EFM32GG842F1024/KiCADv6/footprints.pretty")(options "")(descr "MCU"))
   (lib (name "MicroHard")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/MicroHard.pretty")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/SN74ALVC245PWR/footprints.pretty")(options "")(descr ""))
-  (lib (name "LTP-587HR")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/LTP-587HR/footprints.pretty")(options "")(descr "16 segment display"))
+  (lib (name "PSC05-12GWA")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/LTP-587HR/footprints.pretty")(options "")(descr "16 segment display"))
   (lib (name "FTSH-110-01-F-DV-K")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/FTSH-110-01-F-DV-K/footprints.pretty")(options "")(descr "Debug header"))
   (lib (name "KMR221NG")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/KMR221NG/footprints.pretty")(options "")(descr "Button"))
   (lib (name "MAX6955")(type "KiCad")(uri "${KIPRJMOD}/../partsLib/MAX6955AAX+ LED Driver/KiCADv6/footprints.pretty")(options "")(descr ""))
